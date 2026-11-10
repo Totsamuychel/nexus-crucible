@@ -1443,6 +1443,523 @@
           "isLevels:1": 0
         }
       ]
+    },
+    {
+      "questID:3": 400,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Тир 1: Паровые и Лёгкие Каркасы",
+          "desc:8": "Начало автоматизации и механики.\n\nЛегкий инженерный блок Immersive Engineering и Паровой корпус Industrial Upgrade открывают эру давления и пара. Они являются фундаментом для всех последующих электрических механизмов.",
+          "icon:10": {
+            "id:8": "industrialupgrade:blockresource",
+            "Count:3": 1,
+            "Damage:2": 12,
+            "OreDict:8": ""
+          },
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "dropLimit:3": 0,
+          "globalShare:1": 0,
+          "simultaneous:1": 0,
+          "visibility:8": "NORMAL",
+          "partySingleQuests:1": 0,
+          "lockedProgress:1": 0,
+          "taskLogic:8": "AND",
+          "repeating:1": 0,
+          "repeatTime:3": -1
+        }
+      },
+      "tasks:9": [
+        {
+          "index:3": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "requiredItems:9": [
+            {
+              "id:8": "immersiveengineering:metal_decoration0",
+              "Count:3": 1,
+              "Damage:2": 4,
+              "OreDict:8": ""
+            }
+          ]
+        },
+        {
+          "index:3": 1,
+          "taskID:8": "bq_standard:retrieval",
+          "requiredItems:9": [
+            {
+              "id:8": "industrialupgrade:blockresource",
+              "Count:3": 1,
+              "Damage:2": 12,
+              "OreDict:8": ""
+            }
+          ]
+        }
+      ],
+      "rewards:9": [
+        {
+          "rewardID:8": "bq_standard:xp",
+          "index:3": 0,
+          "amount:3": 150,
+          "isLevels:1": 0
+        }
+      ]
+    },
+    {
+      "questID:3": 401,
+      "preRequisites:11": [
+        400
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Тир 2: Базовые Электрические Корпуса",
+          "desc:8": "Первый рывок в электрификацию RF и EU.\n\nКорпус механизма Thermal Expansion теперь собирается на базе Парового корпуса IU, а Базовый корпус машины Industrial Upgrade требует готовый корпус Thermal Expansion!",
+          "icon:10": {
+            "id:8": "thermalexpansion:frame",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "dropLimit:3": 0,
+          "globalShare:1": 0,
+          "simultaneous:1": 0,
+          "visibility:8": "NORMAL",
+          "partySingleQuests:1": 0,
+          "lockedProgress:1": 0,
+          "taskLogic:8": "AND",
+          "repeating:1": 0,
+          "repeatTime:3": -1
+        }
+      },
+      "tasks:9": [
+        {
+          "index:3": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "requiredItems:9": [
+            {
+              "id:8": "thermalexpansion:frame",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          ]
+        },
+        {
+          "index:3": 1,
+          "taskID:8": "bq_standard:retrieval",
+          "requiredItems:9": [
+            {
+              "id:8": "industrialupgrade:blockresource",
+              "Count:3": 1,
+              "Damage:2": 8,
+              "OreDict:8": ""
+            }
+          ]
+        }
+      ],
+      "rewards:9": [
+        {
+          "rewardID:8": "bq_standard:xp",
+          "index:3": 0,
+          "amount:3": 150,
+          "isLevels:1": 0
+        }
+      ]
+    },
+    {
+      "questID:3": 402,
+      "preRequisites:11": [
+        401
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Тир 2: Кристальный Железный Корпус",
+          "desc:8": "Прецизионная инженерия Actually Additions.\n\nЖелезный корпус (Iron Casing) строится прямо вокруг Базового корпуса машины IU с кристаллами Энори и индустриальным ядром.",
+          "icon:10": {
+            "id:8": "actuallyadditions:block_misc",
+            "Count:3": 1,
+            "Damage:2": 9,
+            "OreDict:8": ""
+          },
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "dropLimit:3": 0,
+          "globalShare:1": 0,
+          "simultaneous:1": 0,
+          "visibility:8": "NORMAL",
+          "partySingleQuests:1": 0,
+          "lockedProgress:1": 0,
+          "taskLogic:8": "AND",
+          "repeating:1": 0,
+          "repeatTime:3": -1
+        }
+      },
+      "tasks:9": [
+        {
+          "index:3": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "requiredItems:9": [
+            {
+              "id:8": "actuallyadditions:block_misc",
+              "Count:3": 1,
+              "Damage:2": 9,
+              "OreDict:8": ""
+            }
+          ]
+        }
+      ],
+      "rewards:9": [
+        {
+          "rewardID:8": "bq_standard:xp",
+          "index:3": 0,
+          "amount:3": 150,
+          "isLevels:1": 0
+        }
+      ]
+    },
+    {
+      "questID:3": 403,
+      "preRequisites:11": [
+        402
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Тир 3: Индустриальный Каркас Ender IO",
+          "desc:8": "Высокотехнологичный сплавной каркас Ender IO.\n\nПростой каркас требует Железный корпус Actually Additions, а полноценный Индустриальный каркас собирается из простого каркаса и Тяжелого инженерного блока Immersive Engineering!",
+          "icon:10": {
+            "id:8": "enderio:item_material",
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": ""
+          },
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "dropLimit:3": 0,
+          "globalShare:1": 0,
+          "simultaneous:1": 0,
+          "visibility:8": "NORMAL",
+          "partySingleQuests:1": 0,
+          "lockedProgress:1": 0,
+          "taskLogic:8": "AND",
+          "repeating:1": 0,
+          "repeatTime:3": -1
+        }
+      },
+      "tasks:9": [
+        {
+          "index:3": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "requiredItems:9": [
+            {
+              "id:8": "enderio:item_material",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          ]
+        },
+        {
+          "index:3": 1,
+          "taskID:8": "bq_standard:retrieval",
+          "requiredItems:9": [
+            {
+              "id:8": "enderio:item_material",
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            }
+          ]
+        }
+      ],
+      "rewards:9": [
+        {
+          "rewardID:8": "bq_standard:xp",
+          "index:3": 0,
+          "amount:3": 150,
+          "isLevels:1": 0
+        }
+      ]
+    },
+    {
+      "questID:3": 404,
+      "preRequisites:11": [
+        403
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Тир 3: Полимерный Корпус Industrial Foregoing",
+          "desc:8": "Корпус био-индустрии и глубокой переработки.\n\nТребует Индустриальный каркас Ender IO, пластик и алхимический каркас механизма.",
+          "icon:10": {
+            "id:8": "teslacorelib:machine_case",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "dropLimit:3": 0,
+          "globalShare:1": 0,
+          "simultaneous:1": 0,
+          "visibility:8": "NORMAL",
+          "partySingleQuests:1": 0,
+          "lockedProgress:1": 0,
+          "taskLogic:8": "AND",
+          "repeating:1": 0,
+          "repeatTime:3": -1
+        }
+      },
+      "tasks:9": [
+        {
+          "index:3": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "requiredItems:9": [
+            {
+              "id:8": "teslacorelib:machine_case",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          ]
+        }
+      ],
+      "rewards:9": [
+        {
+          "rewardID:8": "bq_standard:xp",
+          "index:3": 0,
+          "amount:3": 150,
+          "isLevels:1": 0
+        }
+      ]
+    },
+    {
+      "questID:3": 405,
+      "preRequisites:11": [
+        404
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Тир 4: Ядерный Корпус NuclearCraft",
+          "desc:8": "Корпус для работы при экстремальных радиационных нагрузках.\n\nСобирается на основе Полимерного корпуса Industrial Foregoing, свинцовых пластин и рунического логического ядра.",
+          "icon:10": {
+            "id:8": "nuclearcraft:part",
+            "Count:3": 1,
+            "Damage:2": 10,
+            "OreDict:8": ""
+          },
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "dropLimit:3": 0,
+          "globalShare:1": 0,
+          "simultaneous:1": 0,
+          "visibility:8": "NORMAL",
+          "partySingleQuests:1": 0,
+          "lockedProgress:1": 0,
+          "taskLogic:8": "AND",
+          "repeating:1": 0,
+          "repeatTime:3": -1
+        }
+      },
+      "tasks:9": [
+        {
+          "index:3": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "requiredItems:9": [
+            {
+              "id:8": "nuclearcraft:part",
+              "Count:3": 1,
+              "Damage:2": 10,
+              "OreDict:8": ""
+            }
+          ]
+        }
+      ],
+      "rewards:9": [
+        {
+          "rewardID:8": "bq_standard:xp",
+          "index:3": 0,
+          "amount:3": 150,
+          "isLevels:1": 0
+        }
+      ]
+    },
+    {
+      "questID:3": 406,
+      "preRequisites:11": [
+        405
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Тир 4: Стальной Корпус Mekanism",
+          "desc:8": "Сверхпрочный стальной монолит Mekanism.\n\nВ его центре смонтирован Ядерный каркас NuclearCraft, усиленный осмием, сталью и матрицей управления.",
+          "icon:10": {
+            "id:8": "mekanism:basicblock",
+            "Count:3": 1,
+            "Damage:2": 8,
+            "OreDict:8": ""
+          },
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "dropLimit:3": 0,
+          "globalShare:1": 0,
+          "simultaneous:1": 0,
+          "visibility:8": "NORMAL",
+          "partySingleQuests:1": 0,
+          "lockedProgress:1": 0,
+          "taskLogic:8": "AND",
+          "repeating:1": 0,
+          "repeatTime:3": -1
+        }
+      },
+      "tasks:9": [
+        {
+          "index:3": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "requiredItems:9": [
+            {
+              "id:8": "mekanism:basicblock",
+              "Count:3": 1,
+              "Damage:2": 8,
+              "OreDict:8": ""
+            }
+          ]
+        }
+      ],
+      "rewards:9": [
+        {
+          "rewardID:8": "bq_standard:xp",
+          "index:3": 0,
+          "amount:3": 150,
+          "isLevels:1": 0
+        }
+      ]
+    },
+    {
+      "questID:3": 407,
+      "preRequisites:11": [
+        406
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Тир 4: Улучшенный Корпус Industrial Upgrade",
+          "desc:8": "Предельный уровень индустриальных машинных корпусов.\n\nУлучшенный корпус IU строится на базе Стального корпуса Mekanism, углепластика и композитных пластин.",
+          "icon:10": {
+            "id:8": "industrialupgrade:blockresource",
+            "Count:3": 1,
+            "Damage:2": 9,
+            "OreDict:8": ""
+          },
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "dropLimit:3": 0,
+          "globalShare:1": 0,
+          "simultaneous:1": 0,
+          "visibility:8": "NORMAL",
+          "partySingleQuests:1": 0,
+          "lockedProgress:1": 0,
+          "taskLogic:8": "AND",
+          "repeating:1": 0,
+          "repeatTime:3": -1
+        }
+      },
+      "tasks:9": [
+        {
+          "index:3": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "requiredItems:9": [
+            {
+              "id:8": "industrialupgrade:blockresource",
+              "Count:3": 1,
+              "Damage:2": 9,
+              "OreDict:8": ""
+            }
+          ]
+        }
+      ],
+      "rewards:9": [
+        {
+          "rewardID:8": "bq_standard:xp",
+          "index:3": 0,
+          "amount:3": 150,
+          "isLevels:1": 0
+        }
+      ]
+    },
+    {
+      "questID:3": 408,
+      "preRequisites:11": [
+        407
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Тир 5: Драконический Синтез и Инжекторы",
+          "desc:8": "Вершина технологии материи и термоядерного синтеза.\n\nЯдро синтеза требует Улучшенный корпус IU. Каждый уровень инжектора (Базовый -> Виверна -> Драконик -> Хаос) поэтапно улучшается из своего предшественника!",
+          "icon:10": {
+            "id:8": "draconicevolution:fusion_crafting_core",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "dropLimit:3": 0,
+          "globalShare:1": 0,
+          "simultaneous:1": 0,
+          "visibility:8": "NORMAL",
+          "partySingleQuests:1": 0,
+          "lockedProgress:1": 0,
+          "taskLogic:8": "AND",
+          "repeating:1": 0,
+          "repeatTime:3": -1
+        }
+      },
+      "tasks:9": [
+        {
+          "index:3": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "requiredItems:9": [
+            {
+              "id:8": "draconicevolution:fusion_crafting_core",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          ]
+        },
+        {
+          "index:3": 1,
+          "taskID:8": "bq_standard:retrieval",
+          "requiredItems:9": [
+            {
+              "id:8": "draconicevolution:crafting_injector",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          ]
+        },
+        {
+          "index:3": 2,
+          "taskID:8": "bq_standard:retrieval",
+          "requiredItems:9": [
+            {
+              "id:8": "draconicevolution:crafting_injector",
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            }
+          ]
+        }
+      ],
+      "rewards:9": [
+        {
+          "rewardID:8": "bq_standard:xp",
+          "index:3": 0,
+          "amount:3": 150,
+          "isLevels:1": 0
+        }
+      ]
     }
   ],
   "questLines:9": [
@@ -1757,6 +2274,79 @@
           "y:3": 20,
           "sizeX:3": 24,
           "sizeY:3": 24
+        }
+      ]
+    },
+    {
+      "lineID:3": 4,
+      "order:3": 4,
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Иерархия Механизмов и Корпусов",
+          "desc:8": "Поэтапное развитие индустрии от паровых машин до термоядерных инжекторов Драконика.",
+          "icon:10": {
+            "id:8": "mekanism:basicblock",
+            "Count:3": 1,
+            "Damage:2": 8,
+            "OreDict:8": ""
+          },
+          "visibility:8": "NORMAL"
+        }
+      },
+      "quests:9": [
+        {
+          "id:3": 400,
+          "x:3": 0,
+          "y:3": 0,
+          "size:3": 24
+        },
+        {
+          "id:3": 401,
+          "x:3": 32,
+          "y:3": 0,
+          "size:3": 24
+        },
+        {
+          "id:3": 402,
+          "x:3": 64,
+          "y:3": 0,
+          "size:3": 24
+        },
+        {
+          "id:3": 403,
+          "x:3": 96,
+          "y:3": 0,
+          "size:3": 24
+        },
+        {
+          "id:3": 404,
+          "x:3": 128,
+          "y:3": 0,
+          "size:3": 24
+        },
+        {
+          "id:3": 405,
+          "x:3": 160,
+          "y:3": 0,
+          "size:3": 24
+        },
+        {
+          "id:3": 406,
+          "x:3": 192,
+          "y:3": 0,
+          "size:3": 24
+        },
+        {
+          "id:3": 407,
+          "x:3": 224,
+          "y:3": 0,
+          "size:3": 24
+        },
+        {
+          "id:3": 408,
+          "x:3": 256,
+          "y:3": 0,
+          "size:3": 24
         }
       ]
     }

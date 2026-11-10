@@ -6,19 +6,11 @@ import crafttweaker.item.IIngredient;
 // Narrative storyline recipes binding all 10 major mods
 // ========================================================
 
-// --- Thermal Expansion Machine Frame (Stage 03) ---
-// Requires Immersive Engineering Treated Wood, Tinkers Steel, Bronze, and Living Conductor
 val machineFrame = <thermalexpansion:frame:0>;
-recipes.remove(machineFrame);
-recipes.addShaped("nexus_thermal_machine_frame", machineFrame, [
-    [<ore:ingotSteel>, <ore:gearBronze>, <ore:ingotSteel>],
-    [<ore:plankTreatedWood>, <contenttweaker:living_conductor>, <ore:plankTreatedWood>],
-    [<ore:ingotSteel>, <ore:gearBronze>, <ore:ingotSteel>]
-]);
+val heavyEng = <immersiveengineering:metal_decoration0:5>;
 
 // --- Immersive Engineering Heavy Engineering Block (Stage 03) ---
 // Requires Thermal Invar, Tinkers Steel, and Machine Frame
-val heavyEng = <immersiveengineering:metal_decoration0:5>;
 recipes.remove(heavyEng);
 recipes.addShaped("nexus_ie_heavy_eng", heavyEng * 2, [
     [<ore:plateSteel>, <ore:gearInvar>, <ore:plateSteel>],
@@ -35,15 +27,7 @@ recipes.addShaped("nexus_ie_light_eng", lightEng * 2, [
     [<ore:plateIron>, <ore:gearCopper>, <ore:plateIron>]
 ]);
 
-// --- Industrial Foregoing Machine Case (Stage 04) ---
-// Requires Thermal Machine Frame, Plastic, and Alchemical Machine Frame
-val ifMachineCase = <teslacorelib:machine_case>;
-recipes.remove(ifMachineCase);
-recipes.addShaped("nexus_if_machine_case", ifMachineCase, [
-    [<ore:platePlastic>, <ore:gearGold>, <ore:platePlastic>],
-    [<contenttweaker:alchemical_machine_frame>, machineFrame, <contenttweaker:alchemical_machine_frame>],
-    [<ore:platePlastic>, <ore:gearGold>, <ore:platePlastic>]
-]);
+// (ifMachineCase moved to machine_tier_balance.zs)
 
 // --- Botania Runic Altar (Stage 02) ---
 // Requires Livingrock, Mana Pearl, and Pressure Assembly
@@ -99,14 +83,7 @@ recipes.addShaped("nexus_ae2_silicon_press", <appliedenergistics2:material:19>, 
     [<minecraft:clay_ball>, <ore:blockIron>, <minecraft:clay_ball>]
 ]);
 
-// --- Mekanism Steel Casing (Stage 07) ---
-val steelCasing = <mekanism:basicblock:8>;
-recipes.remove(steelCasing);
-recipes.addShaped("nexus_mek_steel_casing", steelCasing, [
-    [<ore:plateSteel>, <ore:ingotInvar>, <ore:plateSteel>],
-    [<ore:ingotInvar>, heavyEng, <ore:ingotInvar>],
-    [<ore:plateSteel>, <ore:ingotInvar>, <ore:plateSteel>]
-]);
+// (steelCasing moved to machine_tier_balance.zs)
 
 // --- Blood Magic Blood Altar (Stage 05) ---
 val bloodAltar = <bloodmagic:altar>;
