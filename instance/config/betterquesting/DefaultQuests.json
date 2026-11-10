@@ -1,7 +1,11 @@
 {
+  "build:8": "3.5.329",
+  "format:8": "2.0.0",
   "questSettings:10": {
     "betterquesting:10": {
-      "livesMax:3": 3,
+      "pack_name:8": "Nexus Crucible",
+      "pack_version:3": 1,
+      "livesMax:3": 10,
       "livesDef:3": 3,
       "hardcore:1": 0,
       "editMode:1": 0,
@@ -12,12 +16,19 @@
   "questDatabase:9": [
     {
       "questID:3": 0,
+      "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Стадия 00: Первобытная эпоха",
           "desc:8": "Добро пожаловать в Nexus Crucible! Ванильные инструменты заблокированы. Изготовьте кремневые инструменты Tinkers' Construct и обожгите Fired Foundation, чтобы открыть доступ к контролируемой металлургии.",
-          "visibility:8": "NORMAL",
-          "isSilent:1": 0
+          "visibility:8": "ALWAYS",
+          "isSilent:1": 0,
+          "icon:10": {
+            "id:8": "contenttweaker:fired_foundation",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          }
         }
       },
       "tasks:9": [
@@ -27,7 +38,9 @@
           "requiredItems:9": [
             {
               "id:8": "contenttweaker:fired_foundation",
-              "Count:3": 1
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           ]
         }
@@ -36,12 +49,21 @@
     },
     {
       "questID:3": 1,
-      "preRequisites:11": [0],
+      "preRequisites:11": [
+        0
+      ],
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Стадия 01: Сила Пара",
           "desc:8": "Первая индустриализация. Постройте паровую инфраструктуру, освойте медь и бронзу, и соберите Pressure Assembly для перехода к природным энергиям.",
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS",
+          "isSilent:1": 0,
+          "icon:10": {
+            "id:8": "contenttweaker:pressure_assembly",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          }
         }
       },
       "tasks:9": [
@@ -51,20 +73,32 @@
           "requiredItems:9": [
             {
               "id:8": "contenttweaker:pressure_assembly",
-              "Count:3": 1
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           ]
         }
-      ]
+      ],
+      "rewards:9": []
     },
     {
       "questID:3": 2,
-      "preRequisites:11": [1],
+      "preRequisites:11": [
+        1
+      ],
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Стадия 02: Пробуждённая Природа",
           "desc:8": "Слияние жизненной маны Botania и звездной алхимии Astral Sorcery. Создайте Living Conductor — проводник, соединяющий живую силу с будущей электроникой.",
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS",
+          "isSilent:1": 0,
+          "icon:10": {
+            "id:8": "contenttweaker:living_conductor",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          }
         }
       },
       "tasks:9": [
@@ -74,20 +108,32 @@
           "requiredItems:9": [
             {
               "id:8": "contenttweaker:living_conductor",
-              "Count:3": 1
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           ]
         }
-      ]
+      ],
+      "rewards:9": []
     },
     {
       "questID:3": 3,
-      "preRequisites:11": [2],
+      "preRequisites:11": [
+        2
+      ],
       "properties:10": {
         "betterquesting:10": {
-          "name:8": "Стадия 03: Электромеханика",
-          "desc:8": "Тяжёлое машиностроение Immersive Engineering. Высоковольтные трансформаторы, стальные детали и изолированные сердечники. Соберите Insulated Industrial Core.",
-          "visibility:8": "NORMAL"
+          "name:8": "Стадия 03: Индустриальный Прорыв",
+          "desc:8": "Выплавка высокопрочной стали, первые электродвигатели и автоматизация дробления. Спрессуйте Advanced Alloy Plate.",
+          "visibility:8": "ALWAYS",
+          "isSilent:1": 0,
+          "icon:10": {
+            "id:8": "contenttweaker:advanced_alloy_plate",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          }
         }
       },
       "tasks:9": [
@@ -96,21 +142,33 @@
           "taskID:8": "bq_standard:retrieval",
           "requiredItems:9": [
             {
-              "id:8": "contenttweaker:insulated_industrial_core",
-              "Count:3": 1
+              "id:8": "contenttweaker:advanced_alloy_plate",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           ]
         }
-      ]
+      ],
+      "rewards:9": []
     },
     {
       "questID:3": 4,
-      "preRequisites:11": [3],
+      "preRequisites:11": [
+        3
+      ],
       "properties:10": {
         "betterquesting:10": {
-          "name:8": "Стадия 04: Промышленная Химия",
-          "desc:8": "Сложные сплавы Ender IO и Thermal Expansion, полимеры Industrial Foregoing и темная алхимия Кровавого Алтаря. Сформируйте Alchemical Machine Frame.",
-          "visibility:8": "NORMAL"
+          "name:8": "Стадия 04: Нефтехимия и Полимеры",
+          "desc:8": "Глубокая переработка нефти Immersive Petroleum, полимеры и синтетические композиты. Синтезируйте Polymer Resin для химически стойких компонентов.",
+          "visibility:8": "ALWAYS",
+          "isSilent:1": 0,
+          "icon:10": {
+            "id:8": "contenttweaker:polymer_resin",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          }
         }
       },
       "tasks:9": [
@@ -119,21 +177,33 @@
           "taskID:8": "bq_standard:retrieval",
           "requiredItems:9": [
             {
-              "id:8": "contenttweaker:alchemical_machine_frame",
-              "Count:3": 1
+              "id:8": "contenttweaker:polymer_resin",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           ]
         }
-      ]
+      ],
+      "rewards:9": []
     },
     {
       "questID:3": 5,
-      "preRequisites:11": [4],
+      "preRequisites:11": [
+        4
+      ],
       "properties:10": {
         "betterquesting:10": {
-          "name:8": "Стадия 05: Арканная Инженерия",
-          "desc:8": "Исследования первородных аспектов Thaumcraft, эльфийские врата Альфхейма и матричные инфузии. Закодируйте Runic Logic Core.",
-          "visibility:8": "NORMAL"
+          "name:8": "Стадия 05: Цифровая Логика",
+          "desc:8": "Компьютеризация Applied Energistics 2 и OpenComputers, микропроцессоры и квантовые расчеты. Соберите Quantum Flux Core.",
+          "visibility:8": "ALWAYS",
+          "isSilent:1": 0,
+          "icon:10": {
+            "id:8": "contenttweaker:quantum_flux_core",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          }
         }
       },
       "tasks:9": [
@@ -142,21 +212,33 @@
           "taskID:8": "bq_standard:retrieval",
           "requiredItems:9": [
             {
-              "id:8": "contenttweaker:runic_logic_core",
-              "Count:3": 1
+              "id:8": "contenttweaker:quantum_flux_core",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           ]
         }
-      ]
+      ],
+      "rewards:9": []
     },
     {
       "questID:3": 6,
-      "preRequisites:11": [5],
+      "preRequisites:11": [
+        5
+      ],
       "properties:10": {
         "betterquesting:10": {
-          "name:8": "Стадия 06: Цифровая Фабрика",
-          "desc:8": "Единая сеть Applied Energistics 2, маршрутизация XNet и логика Integrated Dynamics. Создайте Distributed Control Matrix для управления сложнейшими заводами.",
-          "visibility:8": "NORMAL"
+          "name:8": "Стадия 06: Расщепление Атома",
+          "desc:8": "Ядерные реакторы NuclearCraft, радиационная защита и деление тяжелых ядер. Произведите свинцово-борированную обшивку Dense Radiation Plating.",
+          "visibility:8": "ALWAYS",
+          "isSilent:1": 0,
+          "icon:10": {
+            "id:8": "contenttweaker:dense_radiation_plating",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          }
         }
       },
       "tasks:9": [
@@ -165,21 +247,33 @@
           "taskID:8": "bq_standard:retrieval",
           "requiredItems:9": [
             {
-              "id:8": "contenttweaker:distributed_control_matrix",
-              "Count:3": 1
+              "id:8": "contenttweaker:dense_radiation_plating",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           ]
         }
-      ]
+      ],
+      "rewards:9": []
     },
     {
       "questID:3": 7,
-      "preRequisites:11": [6],
+      "preRequisites:11": [
+        6
+      ],
       "properties:10": {
         "betterquesting:10": {
-          "name:8": "Стадия 07: Передовая Индустрия",
-          "desc:8": "Ядерные реакторы NuclearCraft, 5-кратная очистка руды и плазменные технологии Mekanism. Стабилизируйте субатомные частицы в Stabilized Quantum Substrate.",
-          "visibility:8": "NORMAL"
+          "name:8": "Стадия 07: Тауматургическое Слияние",
+          "desc:8": "Алхимия Thaumcraft, трансмутация эссенций и искривление пространства. Создайте Primordial Focal Matrix для объединения магии и высоких технологий.",
+          "visibility:8": "ALWAYS",
+          "isSilent:1": 0,
+          "icon:10": {
+            "id:8": "contenttweaker:primordial_focal_matrix",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          }
         }
       },
       "tasks:9": [
@@ -188,21 +282,33 @@
           "taskID:8": "bq_standard:retrieval",
           "requiredItems:9": [
             {
-              "id:8": "contenttweaker:stabilized_quantum_substrate",
-              "Count:3": 1
+              "id:8": "contenttweaker:primordial_focal_matrix",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           ]
         }
-      ]
+      ],
+      "rewards:9": []
     },
     {
       "questID:3": 8,
-      "preRequisites:11": [7],
+      "preRequisites:11": [
+        7
+      ],
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Стадия 08: Небесный Синтез",
           "desc:8": "Высшие ступени магии: Первородные жемчужины, Астральные радужные алтари и Высшие арканы. Сплетите Celestial Binding Matrix.",
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS",
+          "isSilent:1": 0,
+          "icon:10": {
+            "id:8": "contenttweaker:celestial_binding_matrix",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          }
         }
       },
       "tasks:9": [
@@ -212,20 +318,32 @@
           "requiredItems:9": [
             {
               "id:8": "contenttweaker:celestial_binding_matrix",
-              "Count:3": 1
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           ]
         }
-      ]
+      ],
+      "rewards:9": []
     },
     {
       "questID:3": 9,
-      "preRequisites:11": [8],
+      "preRequisites:11": [
+        8
+      ],
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Стадия 09: Звездная Инженерия",
           "desc:8": "Драконический реактор, лазерная добыча ресурсов из пустоты Environmental Tech и рождение сингулярности. Сожмите сингулярность Nexus Singularity.",
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS",
+          "isSilent:1": 0,
+          "icon:10": {
+            "id:8": "contenttweaker:nexus_singularity",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          }
         }
       },
       "tasks:9": [
@@ -235,20 +353,32 @@
           "requiredItems:9": [
             {
               "id:8": "contenttweaker:nexus_singularity",
-              "Count:3": 1
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           ]
         }
-      ]
+      ],
+      "rewards:9": []
     },
     {
       "questID:3": 10,
-      "preRequisites:11": [9],
+      "preRequisites:11": [
+        9
+      ],
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Стадия 10: Конвергенция (Финал)",
           "desc:8": "Абсолютная гармония между разумом, технологией и мистическими законами вселенной. Завершите финальный крафт и получите Convergence Core!",
-          "visibility:8": "COMPLETION"
+          "visibility:8": "ALWAYS",
+          "isSilent:1": 0,
+          "icon:10": {
+            "id:8": "contenttweaker:convergence_core",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          }
         }
       },
       "tasks:9": [
@@ -258,11 +388,14 @@
           "requiredItems:9": [
             {
               "id:8": "contenttweaker:convergence_core",
-              "Count:3": 1
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           ]
         }
-      ]
+      ],
+      "rewards:9": []
     }
   ],
   "questLines:9": [
@@ -272,23 +405,95 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Nexus Crucible: Основная прогрессия",
-          "desc:8": "Главная ветка прохождения через 11 стадий техно-магической интеграции."
+          "desc:8": "Главная ветка прохождения через 11 стадий техно-магической интеграции.",
+          "icon:10": {
+            "id:8": "contenttweaker:convergence_core",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "visibility:8": "ALWAYS"
         }
       },
       "quests:9": [
-        {"id:3": 0, "x:3": 0, "y:3": 0},
-        {"id:3": 1, "x:3": 30, "y:3": 0},
-        {"id:3": 2, "x:3": 60, "y:3": 0},
-        {"id:3": 3, "x:3": 90, "y:3": 0},
-        {"id:3": 4, "x:3": 120, "y:3": 0},
-        {"id:3": 5, "x:3": 150, "y:3": 0},
-        {"id:3": 6, "x:3": 180, "y:3": 0},
-        {"id:3": 7, "x:3": 210, "y:3": 0},
-        {"id:3": 8, "x:3": 240, "y:3": 0},
-        {"id:3": 9, "x:3": 270, "y:3": 0},
-        {"id:3": 10, "x:3": 300, "y:3": 0}
+        {
+          "id:3": 0,
+          "x:3": 0,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        {
+          "id:3": 1,
+          "x:3": 48,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        {
+          "id:3": 2,
+          "x:3": 96,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        {
+          "id:3": 3,
+          "x:3": 144,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        {
+          "id:3": 4,
+          "x:3": 192,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        {
+          "id:3": 5,
+          "x:3": 240,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        {
+          "id:3": 6,
+          "x:3": 288,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        {
+          "id:3": 7,
+          "x:3": 336,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        {
+          "id:3": 8,
+          "x:3": 384,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        {
+          "id:3": 9,
+          "x:3": 432,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        {
+          "id:3": 10,
+          "x:3": 480,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        }
       ]
     }
-  ],
-  "format:8": "2.0.0"
+  ]
 }
