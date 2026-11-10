@@ -1,0 +1,63 @@
+{
+  "version": "1.0",
+  "minecraft_version": "1.12.2",
+  "forge_version": "14.23.5.2860",
+  "baseline_cluster": "core_tweakers_and_tinkers",
+  "mods": {
+    "AppleSkin-mc1.12-1.0.14": {
+      "filename": "AppleSkin-mc1.12-1.0.14.jar",
+      "sha256": "4bbd37edecff0b420ab0eea166b5d7b4b41a9870bfb8647bf243140dc57f101e",
+      "size_bytes": 33683
+    },
+    "Clumps-3.1.2": {
+      "filename": "Clumps-3.1.2.jar",
+      "sha256": "f3ce670e0087f4c6b770fd05ae5c3dfd8462f74c62397932ea72954d1c6c8df4",
+      "size_bytes": 13792
+    },
+    "ContentTweaker-1.12.2-4.10.0": {
+      "filename": "ContentTweaker-1.12.2-4.10.0.jar",
+      "sha256": "3371fcccdda4c0701e0991d576db58e2806046c2cb27c22c1e52764080f0e3e9",
+      "size_bytes": 278152
+    },
+    "CraftTweaker2-1.12-4.1.20.698": {
+      "filename": "CraftTweaker2-1.12-4.1.20.698.jar",
+      "sha256": "b2e5e443f18d0d5bcfd1364f9ec89565e6a1e2ad4568b899c590aa5507978b27",
+      "size_bytes": 1589140
+    },
+    "Mantle-1.12-1.3.3.55": {
+      "filename": "Mantle-1.12-1.3.3.55.jar",
+      "sha256": "0975ad3ef3b8b35fe43461feabe44d406b5521b0a2f3d1965c8d2f6a59ad2e65",
+      "size_bytes": 843486
+    },
+    "TConstruct-1.12.2-2.13.0.183": {
+      "filename": "TConstruct-1.12.2-2.13.0.183.jar",
+      "sha256": "707107f746ffc9d2bf35912953ae1ce780f7b7c4b7cf86b4821a1a151bcf9f6f",
+      "size_bytes": 4023372
+    },
+    "base-1.12.2-3.14.0": {
+      "filename": "base-1.12.2-3.14.0.jar",
+      "sha256": "5ec979220887e4e73772ecdb5dceb8a258b4da974bd4ece8fd85cade089913d4",
+      "size_bytes": 690000
+    },
+    "jei_1.12.2-4.24.0.1042": {
+      "filename": "jei_1.12.2-4.24.0.1042.jar",
+      "sha256": "84c87f5455d2c18a470c22adabe9757511ec012651aa02a3714a42241b16abed",
+      "size_bytes": 743391
+    },
+    "mixinbooter-10.5": {
+      "filename": "mixinbooter-10.5.jar",
+      "sha256": "ba309343c021db547badef0cd60d3d51c34f01632bca2f904614478a88067987",
+      "size_bytes": 2380953
+    },
+    "modtweaker-4.0.20.11": {
+      "filename": "modtweaker-4.0.20.11.jar",
+      "sha256": "2c2db905cae947092fe46dba301d1f6777fdab9cc8e79140c050b09fe62dda7a",
+      "size_bytes": 493285
+    },
+    "vintagefix-0.7.2": {
+      "filename": "vintagefix-0.7.2.jar",
+      "sha256": "33a16df8fe94bb625a41bc20d7d3d4629b63c6a53e95119715db5e969982b65b",
+      "size_bytes": 1045123
+    }
+  }
+}
