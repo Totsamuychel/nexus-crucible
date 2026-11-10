@@ -4,7 +4,7 @@
   "questSettings:10": {
     "betterquesting:10": {
       "pack_name:8": "Nexus Crucible",
-      "pack_version:3": 1,
+      "pack_version:3": 2,
       "livesMax:3": 10,
       "livesDef:3": 3,
       "hardcore:1": 0,
@@ -396,6 +396,530 @@
         }
       ],
       "rewards:9": []
+    },
+    {
+      "questID:3": 100,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Basic Table (3x3)",
+          "desc:8": "Первый верстак расширенного крафта. Позволяет создавать базовые компоненты и улучшенные механизмы.",
+          "visibility:8": "ALWAYS",
+          "isSilent:1": 0,
+          "icon:10": {
+            "id:8": "extendedcrafting:table_basic",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          }
+        }
+      },
+      "tasks:9": [
+        {
+          "index:3": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "requiredItems:9": [
+            {
+              "id:8": "extendedcrafting:table_basic",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          ]
+        }
+      ],
+      "rewards:9": []
+    },
+    {
+      "questID:3": 101,
+      "preRequisites:11": [
+        100
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Advanced Table (5x5)",
+          "desc:8": "Верстак 5x5. Открывает создание высокотехнологичных вычислительных ядер, МЭ-контроллеров и реакторов NuclearCraft.",
+          "visibility:8": "ALWAYS",
+          "isSilent:1": 0,
+          "icon:10": {
+            "id:8": "extendedcrafting:table_advanced",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          }
+        }
+      },
+      "tasks:9": [
+        {
+          "index:3": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "requiredItems:9": [
+            {
+              "id:8": "extendedcrafting:table_advanced",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          ]
+        }
+      ],
+      "rewards:9": []
+    },
+    {
+      "questID:3": 102,
+      "preRequisites:11": [
+        101
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "МЭ Контроллер (Сборка 5x5)",
+          "desc:8": "Сердце цифровой логики Applied Energistics 2, собранное на продвинутом верстаке 5x5.",
+          "visibility:8": "ALWAYS",
+          "isSilent:1": 0,
+          "icon:10": {
+            "id:8": "appliedenergistics2:controller",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          }
+        }
+      },
+      "tasks:9": [
+        {
+          "index:3": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "requiredItems:9": [
+            {
+              "id:8": "appliedenergistics2:controller",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          ]
+        }
+      ],
+      "rewards:9": []
+    },
+    {
+      "questID:3": 103,
+      "preRequisites:11": [
+        101
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Реактор NuclearCraft (Сборка 5x5)",
+          "desc:8": "Ядерный реактор деления, требующий прецизионной сборки 5x5.",
+          "visibility:8": "ALWAYS",
+          "isSilent:1": 0,
+          "icon:10": {
+            "id:8": "nuclearcraft:fission_controller_new_fixed",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          }
+        }
+      },
+      "tasks:9": [
+        {
+          "index:3": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "requiredItems:9": [
+            {
+              "id:8": "nuclearcraft:fission_controller_new_fixed",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          ]
+        }
+      ],
+      "rewards:9": []
+    },
+    {
+      "questID:3": 104,
+      "preRequisites:11": [
+        101
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Elite Table (7x7)",
+          "desc:8": "Элитная матрица 7x7. Позволяет конструировать магические ядра и колоссальные драконические механизмы.",
+          "visibility:8": "ALWAYS",
+          "isSilent:1": 0,
+          "icon:10": {
+            "id:8": "extendedcrafting:table_elite",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          }
+        }
+      },
+      "tasks:9": [
+        {
+          "index:3": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "requiredItems:9": [
+            {
+              "id:8": "extendedcrafting:table_elite",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          ]
+        }
+      ],
+      "rewards:9": []
+    },
+    {
+      "questID:3": 105,
+      "preRequisites:11": [
+        104
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Слияние Draconic Evolution (Сборка 7x7)",
+          "desc:8": "Ядро драконического слияния, созданное в верстаке 7x7.",
+          "visibility:8": "ALWAYS",
+          "isSilent:1": 0,
+          "icon:10": {
+            "id:8": "draconicevolution:fusion_crafting_core",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          }
+        }
+      },
+      "tasks:9": [
+        {
+          "index:3": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "requiredItems:9": [
+            {
+              "id:8": "draconicevolution:fusion_crafting_core",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          ]
+        }
+      ],
+      "rewards:9": []
+    },
+    {
+      "questID:3": 106,
+      "preRequisites:11": [
+        104
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Радужный Алтарь (Сборка 7x7)",
+          "desc:8": "Высший алтарь Astral Sorcery, сплетённый из первородных кристаллов и эссенций в 7x7.",
+          "visibility:8": "ALWAYS",
+          "isSilent:1": 0,
+          "icon:10": {
+            "id:8": "astralsorcery:blockaltar",
+            "Count:3": 1,
+            "Damage:2": 3,
+            "OreDict:8": ""
+          }
+        }
+      },
+      "tasks:9": [
+        {
+          "index:3": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "requiredItems:9": [
+            {
+              "id:8": "astralsorcery:blockaltar",
+              "Count:3": 1,
+              "Damage:2": 3,
+              "OreDict:8": ""
+            }
+          ]
+        }
+      ],
+      "rewards:9": []
+    },
+    {
+      "questID:3": 107,
+      "preRequisites:11": [
+        104
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Сжатый сундук Avaritiaddons (7x7)",
+          "desc:8": "Сундук огромной вместимости (в 9 раз больше обычного), сохраняющий содержимое при разрушении.",
+          "visibility:8": "ALWAYS",
+          "isSilent:1": 0,
+          "icon:10": {
+            "id:8": "avaritiaddons:avaritiaddons_chest",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          }
+        }
+      },
+      "tasks:9": [
+        {
+          "index:3": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "requiredItems:9": [
+            {
+              "id:8": "avaritiaddons:avaritiaddons_chest",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          ]
+        }
+      ],
+      "rewards:9": []
+    },
+    {
+      "questID:3": 108,
+      "preRequisites:11": [
+        104
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Ultimate Table (9x9)",
+          "desc:8": "Вершина расширенного крафта. Матрица 9x9 для финальных сингулярностей и перехода в Аваритию.",
+          "visibility:8": "ALWAYS",
+          "isSilent:1": 0,
+          "icon:10": {
+            "id:8": "extendedcrafting:table_ultimate",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          }
+        }
+      },
+      "tasks:9": [
+        {
+          "index:3": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "requiredItems:9": [
+            {
+              "id:8": "extendedcrafting:table_ultimate",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          ]
+        }
+      ],
+      "rewards:9": []
+    },
+    {
+      "questID:3": 200,
+      "preRequisites:11": [
+        108
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Extreme Crafting Table (9x9)",
+          "desc:8": "Истинный верстак Бесконечности Аваритии. Матрица 9x9, превосходящая законы физики.",
+          "visibility:8": "ALWAYS",
+          "isSilent:1": 0,
+          "icon:10": {
+            "id:8": "avaritia:extreme_crafting_table",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          }
+        }
+      },
+      "tasks:9": [
+        {
+          "index:3": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "requiredItems:9": [
+            {
+              "id:8": "avaritia:extreme_crafting_table",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          ]
+        }
+      ],
+      "rewards:9": []
+    },
+    {
+      "questID:3": 201,
+      "preRequisites:11": [
+        200
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Infinity Catalyst",
+          "desc:8": "Катализатор бесконечности — слияние величайших артефактов из всех 10 глобальных модов сборки!",
+          "visibility:8": "ALWAYS",
+          "isSilent:1": 0,
+          "icon:10": {
+            "id:8": "avaritia:resource",
+            "Count:3": 1,
+            "Damage:2": 5,
+            "OreDict:8": ""
+          }
+        }
+      },
+      "tasks:9": [
+        {
+          "index:3": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "requiredItems:9": [
+            {
+              "id:8": "avaritia:resource",
+              "Count:3": 1,
+              "Damage:2": 5,
+              "OreDict:8": ""
+            }
+          ]
+        }
+      ],
+      "rewards:9": []
+    },
+    {
+      "questID:3": 202,
+      "preRequisites:11": [
+        201
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Infinity Ingot",
+          "desc:8": "Слиток бесконечности — несокрушимый материал космической мощи.",
+          "visibility:8": "ALWAYS",
+          "isSilent:1": 0,
+          "icon:10": {
+            "id:8": "avaritia:resource",
+            "Count:3": 1,
+            "Damage:2": 6,
+            "OreDict:8": ""
+          }
+        }
+      },
+      "tasks:9": [
+        {
+          "index:3": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "requiredItems:9": [
+            {
+              "id:8": "avaritia:resource",
+              "Count:3": 1,
+              "Damage:2": 6,
+              "OreDict:8": ""
+            }
+          ]
+        }
+      ],
+      "rewards:9": []
+    },
+    {
+      "questID:3": 203,
+      "preRequisites:11": [
+        202
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Сундук Бесконечности (Avaritiaddons)",
+          "desc:8": "Легендарный сундук бесконечности: каждый слот вмещает до 2 147 483 647 предметов!",
+          "visibility:8": "ALWAYS",
+          "isSilent:1": 0,
+          "icon:10": {
+            "id:8": "avaritiaddons:avaritiaddons_chest",
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": ""
+          }
+        }
+      },
+      "tasks:9": [
+        {
+          "index:3": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "requiredItems:9": [
+            {
+              "id:8": "avaritiaddons:avaritiaddons_chest",
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            }
+          ]
+        }
+      ],
+      "rewards:9": []
+    },
+    {
+      "questID:3": 204,
+      "preRequisites:11": [
+        202
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Extreme Auto Crafter (Avaritiaddons)",
+          "desc:8": "Автоматический верстак 9x9 для мгновенного бесконечного автокрафта.",
+          "visibility:8": "ALWAYS",
+          "isSilent:1": 0,
+          "icon:10": {
+            "id:8": "avaritiaddons:extreme_auto_crafter",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          }
+        }
+      },
+      "tasks:9": [
+        {
+          "index:3": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "requiredItems:9": [
+            {
+              "id:8": "avaritiaddons:extreme_auto_crafter",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          ]
+        }
+      ],
+      "rewards:9": []
+    },
+    {
+      "questID:3": 205,
+      "preRequisites:11": [
+        202,
+        203
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Триумф: Convergence Core",
+          "desc:8": "Финальный артефакт сборки Nexus Crucible. Полная техно-магическая сингулярность!",
+          "visibility:8": "ALWAYS",
+          "isSilent:1": 0,
+          "icon:10": {
+            "id:8": "contenttweaker:convergence_core",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          }
+        }
+      },
+      "tasks:9": [
+        {
+          "index:3": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "requiredItems:9": [
+            {
+              "id:8": "contenttweaker:convergence_core",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          ]
+        }
+      ],
+      "rewards:9": []
     }
   ],
   "questLines:9": [
@@ -492,6 +1016,149 @@
           "y:3": 0,
           "sizeX:3": 24,
           "sizeY:3": 24
+        }
+      ]
+    },
+    {
+      "lineID:3": 1,
+      "order:3": 1,
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Extended Crafting: Верстаки 3x3, 5x5, 7x7, 9x9",
+          "desc:8": "Расширенная матрица крафта: пошаговое создание высокотехнологичных машин и переход к сингулярностям.",
+          "icon:10": {
+            "id:8": "extendedcrafting:table_ultimate",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "quests:9": [
+        {
+          "id:3": 100,
+          "x:3": 0,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        {
+          "id:3": 101,
+          "x:3": 48,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        {
+          "id:3": 102,
+          "x:3": 48,
+          "y:3": -36,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        {
+          "id:3": 103,
+          "x:3": 48,
+          "y:3": 36,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        {
+          "id:3": 104,
+          "x:3": 96,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        {
+          "id:3": 105,
+          "x:3": 96,
+          "y:3": -36,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        {
+          "id:3": 106,
+          "x:3": 96,
+          "y:3": 36,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        {
+          "id:3": 107,
+          "x:3": 144,
+          "y:3": -36,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        {
+          "id:3": 108,
+          "x:3": 144,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        }
+      ]
+    },
+    {
+      "lineID:3": 2,
+      "order:3": 2,
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Avaritia: Космическая Бесконечность",
+          "desc:8": "Апофеоз сборки: Extreme Crafting Table, Сундуки Бесконечности, автокрафтеры и Convergence Core.",
+          "icon:10": {
+            "id:8": "avaritia:resource",
+            "Count:3": 1,
+            "Damage:2": 5,
+            "OreDict:8": ""
+          },
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "quests:9": [
+        {
+          "id:3": 200,
+          "x:3": 0,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        {
+          "id:3": 201,
+          "x:3": 48,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        {
+          "id:3": 202,
+          "x:3": 96,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        {
+          "id:3": 203,
+          "x:3": 144,
+          "y:3": -30,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        {
+          "id:3": 204,
+          "x:3": 144,
+          "y:3": 30,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        {
+          "id:3": 205,
+          "x:3": 192,
+          "y:3": 0,
+          "sizeX:3": 32,
+          "sizeY:3": 32
         }
       ]
     }
