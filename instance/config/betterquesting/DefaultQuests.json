@@ -1107,6 +1107,342 @@
         }
       ],
       "rewards:9": []
+    },
+    {
+      "questID:3": 300,
+      "preRequisites:11": [
+        2
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Тир II: Доспехи и Орудия Террастали",
+          "desc:8": "Природная защита Botania.\n\nВ Nexus Crucible броня и инструменты террастали требуют в крафте предыдущий комплект из манастали, руны стихий и Живой Проводник.\n\n§6Награда:§r Открывает путь к созданию высокоэнергетической флаксовой экипировки.",
+          "visibility:8": "ALWAYS",
+          "isSilent:1": 0,
+          "icon:10": {
+            "id:8": "botania:terrasteelchest",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          }
+        }
+      },
+      "tasks:9": [
+        {
+          "index:3": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "requiredItems:9": [
+            {
+              "id:8": "botania:terrasteelchest",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          ]
+        }
+      ],
+      "rewards:9": [
+        {
+          "rewardID:8": "bq_standard:xp",
+          "index:3": 0,
+          "amount:3": 500,
+          "isLevels:1": 0
+        }
+      ]
+    },
+    {
+      "questID:3": 301,
+      "preRequisites:11": [
+        300
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Тир III: Флаксовая Экипировка (Redstone Arsenal)",
+          "desc:8": "Защита на энергии RF.\n\nФлаксовая броня и инструменты поглощают урон за счёт расхода энергии. Для крафта каждой части теперь требуется соответствующий элемент брони Террастали, флаксовые электрумовые пластины и Изолированное Индустриальное Ядро.",
+          "visibility:8": "ALWAYS",
+          "isSilent:1": 0,
+          "icon:10": {
+            "id:8": "redstonearsenal:armor.plate_flux",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          }
+        }
+      },
+      "tasks:9": [
+        {
+          "index:3": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "requiredItems:9": [
+            {
+              "id:8": "redstonearsenal:armor.plate_flux",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          ]
+        }
+      ],
+      "rewards:9": [
+        {
+          "rewardID:8": "bq_standard:xp",
+          "index:3": 0,
+          "amount:3": 500,
+          "isLevels:1": 0
+        }
+      ]
+    },
+    {
+      "questID:3": 302,
+      "preRequisites:11": [
+        301
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Тир IV: Нано-Броня и Нано-Бур (Industrial Upgrade)",
+          "desc:8": "Углепластиковая броня высокой прочности.\n\nНано-костюм и инструменты крафтятся из Флаксовой экипировки, углепластиковых пластин (Carbon Plates) и Алхимического Каркаса Механизма.",
+          "visibility:8": "ALWAYS",
+          "isSilent:1": 0,
+          "icon:10": {
+            "id:8": "industrialupgrade:nano_chestplate",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          }
+        }
+      },
+      "tasks:9": [
+        {
+          "index:3": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "requiredItems:9": [
+            {
+              "id:8": "industrialupgrade:nano_chestplate",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          ]
+        }
+      ],
+      "rewards:9": [
+        {
+          "rewardID:8": "bq_standard:xp",
+          "index:3": 0,
+          "amount:3": 500,
+          "isLevels:1": 0
+        }
+      ]
+    },
+    {
+      "questID:3": 303,
+      "preRequisites:11": [
+        302
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Тир V: Квантовая Броня и Ваджра (Industrial Upgrade)",
+          "desc:8": "Неуязвимость и нанотехнологии.\n\nКвантовый костюм крафтится поэтапно из Нано-брони, мистических облачений (Void Robes Thaumcraft / Живая броня Blood Magic), сплава Tough Alloy и Распределённой Матрицы Управления.\n\nВаджра собирается из Квантового бура, Связанной кирки и Квантового субстрата.",
+          "visibility:8": "ALWAYS",
+          "isSilent:1": 0,
+          "icon:10": {
+            "id:8": "industrialupgrade:quantum_chestplate",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          }
+        }
+      },
+      "tasks:9": [
+        {
+          "index:3": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "requiredItems:9": [
+            {
+              "id:8": "industrialupgrade:quantum_chestplate",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          ]
+        }
+      ],
+      "rewards:9": [
+        {
+          "rewardID:8": "bq_standard:xp",
+          "index:3": 0,
+          "amount:3": 500,
+          "isLevels:1": 0
+        }
+      ]
+    },
+    {
+      "questID:3": 304,
+      "preRequisites:11": [
+        303
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Тир VI-A: Виверновая Броня и Орудия (Draconic Evolution)",
+          "desc:8": "Энергетические щиты космического масштаба.\n\nВиверновая броня и оружие выковываются из Квантовой брони, Квантового бура / Ваджры, Виверновых ядер и Небесной Матрицы Связывания.",
+          "visibility:8": "ALWAYS",
+          "isSilent:1": 0,
+          "icon:10": {
+            "id:8": "draconicevolution:wyvern_chest",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          }
+        }
+      },
+      "tasks:9": [
+        {
+          "index:3": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "requiredItems:9": [
+            {
+              "id:8": "draconicevolution:wyvern_chest",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          ]
+        }
+      ],
+      "rewards:9": [
+        {
+          "rewardID:8": "bq_standard:xp",
+          "index:3": 0,
+          "amount:3": 500,
+          "isLevels:1": 0
+        }
+      ]
+    },
+    {
+      "questID:3": 305,
+      "preRequisites:11": [
+        304
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Тир VI-B: Пробуждённая Драконическая Броня и Посох Силы",
+          "desc:8": "Абсолютная драконическая мощь.\n\nПробуждённый дракониевый комплект улучшается из Виверновой брони с использованием Сердца Дракона, Звёзд Незера и Пробуждённых ядер.\n\nПосох Силы объединяет в себе драконическую кирку, меч и лопату.",
+          "visibility:8": "ALWAYS",
+          "isSilent:1": 0,
+          "icon:10": {
+            "id:8": "draconicevolution:draconic_chest",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          }
+        }
+      },
+      "tasks:9": [
+        {
+          "index:3": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "requiredItems:9": [
+            {
+              "id:8": "draconicevolution:draconic_chest",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          ]
+        }
+      ],
+      "rewards:9": [
+        {
+          "rewardID:8": "bq_standard:xp",
+          "index:3": 0,
+          "amount:3": 500,
+          "isLevels:1": 0
+        }
+      ]
+    },
+    {
+      "questID:3": 306,
+      "preRequisites:11": [
+        305
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Тир VII: Броня Бесконечности (Avaritia)",
+          "desc:8": "Абсолютное бессмертие во Вселенной.\n\nКаждая деталь Брони Бесконечности крафтится на верстаке 9x9 и требует:\n- Драконическую броню (Центр)\n- Квантовую броню\n- Броню Террастали\n- Тайные мантии Thaumcraft / Blood Magic\n- Слитки Бесконечности и Катализаторы!",
+          "visibility:8": "ALWAYS",
+          "isSilent:1": 0,
+          "icon:10": {
+            "id:8": "avaritia:infinity_chestplate",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          }
+        }
+      },
+      "tasks:9": [
+        {
+          "index:3": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "requiredItems:9": [
+            {
+              "id:8": "avaritia:infinity_chestplate",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          ]
+        }
+      ],
+      "rewards:9": [
+        {
+          "rewardID:8": "bq_standard:xp",
+          "index:3": 0,
+          "amount:3": 500,
+          "isLevels:1": 0
+        }
+      ]
+    },
+    {
+      "questID:3": 307,
+      "preRequisites:11": [
+        305
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Тир VII: Орудия Бесконечности (World Breaker и Sword of the Cosmos)",
+          "desc:8": "Оружие, разрывающее ткань реальности.\n\nWorld Breaker и Sword of the Cosmos крафтятся на верстаке 9x9 из Посоха Силы Draconic Evolution, Ваджры Industrial Upgrade, Клинка Террастали Botania и Слитков Бесконечности!",
+          "visibility:8": "ALWAYS",
+          "isSilent:1": 0,
+          "icon:10": {
+            "id:8": "avaritia:infinity_pickaxe",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          }
+        }
+      },
+      "tasks:9": [
+        {
+          "index:3": 0,
+          "taskID:8": "bq_standard:retrieval",
+          "requiredItems:9": [
+            {
+              "id:8": "avaritia:infinity_pickaxe",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          ]
+        }
+      ],
+      "rewards:9": [
+        {
+          "rewardID:8": "bq_standard:xp",
+          "index:3": 0,
+          "amount:3": 500,
+          "isLevels:1": 0
+        }
+      ]
     }
   ],
   "questLines:9": [
@@ -1346,6 +1682,81 @@
           "y:3": 0,
           "sizeX:3": 32,
           "sizeY:3": 32
+        }
+      ]
+    },
+    {
+      "lineID:3": 3,
+      "order:3": 3,
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Иерархия Брони и Вооружения",
+          "desc:8": "Поэтапная балансировка экипировки: от кремня и террастали до Кванта, Драконика и Бесконечности.",
+          "visibility:8": "ALWAYS",
+          "icon:10": {
+            "id:8": "industrialupgrade:quantum_chestplate",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          }
+        }
+      },
+      "quests:9": [
+        {
+          "id:3": 300,
+          "x:3": -120,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        {
+          "id:3": 301,
+          "x:3": -80,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        {
+          "id:3": 302,
+          "x:3": -40,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        {
+          "id:3": 303,
+          "x:3": 0,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        {
+          "id:3": 304,
+          "x:3": 40,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        {
+          "id:3": 305,
+          "x:3": 80,
+          "y:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        {
+          "id:3": 306,
+          "x:3": 120,
+          "y:3": -20,
+          "sizeX:3": 24,
+          "sizeY:3": 24
+        },
+        {
+          "id:3": 307,
+          "x:3": 120,
+          "y:3": 20,
+          "sizeX:3": 24,
+          "sizeY:3": 24
         }
       ]
     }
