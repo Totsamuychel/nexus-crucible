@@ -1,0 +1,59 @@
+version: "1.0"
+layout:
+  dimensions: "9x9"
+  recipe_type: "avaritia_extreme_crafting"
+
+recipes:
+  nexus_s09_nexus_singularity:
+    output: "contenttweaker:nexus_singularity"
+    output_count: 1
+    required_stage: "s09_stellar_engineering"
+    pattern:
+      - "A B C D E D C B A"
+      - "B F G H I H G F B"
+      - "C G J K L K J G C"
+      - "D H K M N M K H D"
+      - "E I L N O N L I E"
+      - "D H K M N M K H D"
+      - "C G J K L K J G C"
+      - "B F G H I H G F B"
+      - "A B C D E D C B A"
+    key_roles:
+      A: "Термодинамика и сплавы (Thermal Enderium Block)"
+      B: "Мана-металлургия (Botania Terrasteel Block)"
+      C: "Звездный металл (Astral Sorcery Starmetal Ingot)"
+      D: "Кровь и алхимия (Blood Magic Demonic Will Crystal)"
+      E: "Таум-металл (Thaumcraft Void Metal Block)"
+      F: "Цифровая логика (AE2 64k ME Storage Component)"
+      G: "Электролиз и плазма (Mekanism Ultimate Control Circuit)"
+      H: "Ядерные изотопы (NuclearCraft Californium-252)"
+      I: "Эфирные кристаллы (Astral Celestial Crystal)"
+      J: "Дракониевое ядро (Draconic Evolution Wyvern Core)"
+      K: "Квантовый субстрат (contenttweaker:stabilized_quantum_substrate)"
+      L: "Связующая матрица (contenttweaker:celestial_binding_matrix)"
+      M: "Нейтроний (Avaritia Ingot)"
+      N: "Космическая материя (Environmental Tech Ionite Crystal)"
+      O: "Ядро фабрики (contenttweaker:distributed_control_matrix)"
+
+  nexus_s10_convergence_core:
+    output: "contenttweaker:convergence_core"
+    output_count: 1
+    required_stage: "s10_convergence"
+    pattern:
+      - "N S N S N S N S N"
+      - "S D T M T M T D S"
+      - "N T C I X I C T N"
+      - "S M I K P K I M S"
+      - "N T X P O P X T N"
+      - "S M I K P K I M S"
+      - "N T C I X I C T N"
+      - "S D T M T M T D S"
+      - "N S N S N S N S N"
+    key_roles:
+      O: "Центр: contenttweaker:nexus_singularity"
+      P: "Бесконечность: Avaritia Infinity Ingot"
+      K: "Пробуждённое дракониевое ядро (Draconic Awakened Core)"
+      X: "Астральный фокус (Astral Iridescent Altar Tier 4)"
+      D: "Абсолютная сингулярность (Avaritia Ultimate Singularity)"
+      S: "Сингулярность Nexus"
+      N: "Нейтрониевый блок"

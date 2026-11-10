@@ -1,0 +1,152 @@
+version: "1.0"
+pack_name: "Nexus Crucible"
+minecraft_version: "1.12.2"
+forge_version: "14.23.5.2860"
+
+categories:
+  tech: "Технологии, энергетика, переработка и автоматизация"
+  magic: "Магия, алхимия, астрономия и ритуалы"
+  world: "Генерация мира, биомы, структуры и существа"
+  qol: "Качество жизни, интерфейс, хранение и строительство"
+  lib: "Библиотеки и обязательные API-зависимости"
+  optimization: "Оптимизация памяти, FPS и диагностика"
+
+core_mods:
+  crafttweaker:
+    name: "CraftTweaker2"
+    category: "tech"
+    stage: "all"
+    curseforge_slug: "crafttweaker"
+    required: true
+    description: "Основной движок рецептов ZenScript"
+
+  modtweaker:
+    name: "ModTweaker"
+    category: "tech"
+    stage: "all"
+    curseforge_slug: "modtweaker"
+    depends_on: ["crafttweaker", "mtlib"]
+    required: true
+
+  contenttweaker:
+    name: "ContentTweaker"
+    category: "tech"
+    stage: "all"
+    curseforge_slug: "contenttweaker"
+    depends_on: ["crafttweaker"]
+    required: true
+    description: "Регистрация собственных гейт-предметов"
+
+  gamestages:
+    name: "Game Stages"
+    category: "tech"
+    stage: "all"
+    curseforge_slug: "game-stages"
+    depends_on: ["bookshelf"]
+    required: true
+
+  recipestages:
+    name: "Recipe Stages"
+    category: "tech"
+    stage: "all"
+    curseforge_slug: "recipe-stages"
+    depends_on: ["gamestages", "crafttweaker"]
+    required: true
+
+  itemstages:
+    name: "Item Stages"
+    category: "tech"
+    stage: "all"
+    curseforge_slug: "item-stages"
+    depends_on: ["gamestages", "crafttweaker"]
+    required: true
+
+  jei:
+    name: "Just Enough Items"
+    category: "qol"
+    stage: "all"
+    curseforge_slug: "jei"
+    required: true
+
+  tconstruct:
+    name: "Tinkers Construct"
+    category: "tech"
+    stage: "s00_primitive"
+    curseforge_slug: "tinkers-construct"
+    depends_on: ["mantle"]
+    required: true
+
+  mantle:
+    name: "Mantle"
+    category: "lib"
+    stage: "all"
+    curseforge_slug: "mantle"
+    required: true
+
+  thermalfoundation:
+    name: "Thermal Foundation"
+    category: "tech"
+    stage: "s01_steam"
+    curseforge_slug: "thermal-foundation"
+    depends_on: ["cofhcore", "redstoneflux"]
+    required: true
+
+  thermalexpansion:
+    name: "Thermal Expansion"
+    category: "tech"
+    stage: "s01_steam"
+    curseforge_slug: "thermal-expansion"
+    depends_on: ["thermalfoundation"]
+    required: true
+
+  immersiveengineering:
+    name: "Immersive Engineering"
+    category: "tech"
+    stage: "s03_electromechanics"
+    curseforge_slug: "immersive-engineering"
+    required: true
+
+  botania:
+    name: "Botania"
+    category: "magic"
+    stage: "s02_awakened_nature"
+    curseforge_slug: "botania"
+    depends_on: ["baubles"]
+    required: true
+
+  astralsorcery:
+    name: "Astral Sorcery"
+    category: "magic"
+    stage: "s02_awakened_nature"
+    curseforge_slug: "astral-sorcery"
+    required: true
+
+  bloodmagic:
+    name: "Blood Magic"
+    category: "magic"
+    stage: "s04_industrial_chemistry"
+    curseforge_slug: "blood-magic"
+    depends_on: ["guide-api"]
+    required: true
+
+  appliedenergistics2:
+    name: "Applied Energistics 2"
+    category: "tech"
+    stage: "s06_networked_factory"
+    curseforge_slug: "applied-energistics-2"
+    required: true
+
+  mekanism:
+    name: "Mekanism"
+    category: "tech"
+    stage: "s07_advanced_industry"
+    curseforge_slug: "mekanism"
+    required: true
+
+  avaritia:
+    name: "Avaritia 1.10+"
+    category: "tech"
+    stage: "s09_stellar_engineering"
+    curseforge_slug: "avaritia-1-10"
+    depends_on: ["codechickenlib"]
+    required: true

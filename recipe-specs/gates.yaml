@@ -1,0 +1,164 @@
+version: "1.0"
+stages:
+  s00_primitive:
+    index: 0
+    title: "Primitive"
+    description: "Ручные инструменты, базовая обработка материалов, первая плавка"
+    key_mods:
+      - tinkers_construct
+      - tinkers_complement
+      - clay_bucket
+    gate_item:
+      id: "contenttweaker:fired_foundation"
+      name: "Fired Foundation"
+      tier: "primitive"
+      craft_method: "seared_furnace_or_casting"
+    unlocks: "Контролируемая металлургия и базовая термодинамика"
+
+  s01_steam:
+    index: 1
+    title: "Steam"
+    description: "Стабильные промышленные материалы, паровая энергия и коксовое топливо"
+    key_mods:
+      - thermal_foundation
+      - thermal_expansion
+      - immersive_engineering
+    gate_item:
+      id: "contenttweaker:pressure_assembly"
+      name: "Pressure Assembly"
+      tier: "steam"
+      craft_method: "engineer_workbench_and_casting"
+    unlocks: "Начальная природная и звёздная магия"
+
+  s02_awakened_nature:
+    index: 2
+    title: "Awakened Nature"
+    description: "Мана, растительные трансформации и начальная звёздная алхимия"
+    key_mods:
+      - botania
+      - astral_sorcery
+    gate_item:
+      id: "contenttweaker:living_conductor"
+      name: "Living Conductor"
+      tier: "nature_magic"
+      craft_method: "mana_infusion_and_starlight_altar"
+    unlocks: "Электромеханика и высоковольтные сети"
+
+  s03_electromechanics:
+    index: 3
+    title: "Electromechanics"
+    description: "Первая электрическая инфраструктура, тяжёлые машины и электролиз"
+    key_mods:
+      - immersive_engineering
+      - actually_additions
+    gate_item:
+      id: "contenttweaker:insulated_industrial_core"
+      name: "Insulated Industrial Core"
+      tier: "electromechanics"
+      craft_method: "assembler_and_empowerer"
+    unlocks: "Полноценная химическая переработка и сплавы"
+
+  s04_industrial_chemistry:
+    index: 4
+    title: "Industrial Chemistry"
+    description: "Сложные сплавы, полимеры, нефтепереработка и кровавая алхимия"
+    key_mods:
+      - thermal_expansion
+      - ender_io
+      - industrial_foregoing
+      - blood_magic
+    gate_item:
+      id: "contenttweaker:alchemical_machine_frame"
+      name: "Alchemical Machine Frame"
+      tier: "industrial_chemistry"
+      craft_method: "blood_altar_and_fluid_transposer"
+    unlocks: "Глубокая магическая инфузия и арканная инженерия"
+
+  s05_arcane_engineering:
+    index: 5
+    title: "Arcane Engineering"
+    description: "Слияние промышленных машин с ритуалами, исследованиями Thaumcraft и эльфийской Botania"
+    key_mods:
+      - thaumcraft
+      - blood_magic
+      - botania_alfheim
+    gate_item:
+      id: "contenttweaker:runic_logic_core"
+      name: "Runic Logic Core"
+      tier: "arcane_engineering"
+      craft_method: "runic_altar_and_infusion"
+    unlocks: "Цифровая логистика и сети хранения AE2"
+
+  s06_networked_factory:
+    index: 6
+    title: "Networked Factory"
+    description: "Централизованное цифровое хранилище, шины, каналы и распределённый автокрафт"
+    key_mods:
+      - applied_energistics_2
+      - xnet
+      - integrated_dynamics
+    gate_item:
+      id: "contenttweaker:distributed_control_matrix"
+      name: "Distributed Control Matrix"
+      tier: "networked_factory"
+      craft_method: "ae2_molecular_assembler_and_xnet_router"
+    unlocks: "Продвинутая промышленная химия и ядерная энергетика"
+
+  s07_advanced_industry:
+    index: 7
+    title: "Advanced Industry"
+    description: "5x переработка руд, расщепление атома, плазма и квантовая обработка"
+    key_mods:
+      - mekanism
+      - nuclearcraft
+      - rftools_control
+    gate_item:
+      id: "contenttweaker:stabilized_quantum_substrate"
+      name: "Stabilized Quantum Substrate"
+      tier: "advanced_industry"
+      craft_method: "mekanism_sps_and_quantum_compressor"
+    unlocks: "Высшие ступени магии и звездный синтез"
+
+  s08_celestial_synthesis:
+    index: 8
+    title: "Celestial Synthesis"
+    description: "Верхние уровни звёздной магии, первородные аспекты и сложные ритуалы связывания"
+    key_mods:
+      - astral_sorcery_tier4
+      - thaumcraft_endgame
+      - blood_magic_tier5
+    gate_item:
+      id: "contenttweaker:celestial_binding_matrix"
+      name: "Celestial Binding Matrix"
+      tier: "celestial_synthesis"
+      craft_method: "iridescent_altar_and_void_infusion"
+    unlocks: "Космическая инженерия, темная материя и крафты 9x9"
+
+  s09_stellar_engineering:
+    index: 9
+    title: "Stellar Engineering"
+    description: "Драконическая энергия, лазерная добыча из пустоты и сингулярности"
+    key_mods:
+      - draconic_evolution
+      - environmental_tech
+      - avaritia
+    gate_item:
+      id: "contenttweaker:nexus_singularity"
+      name: "Nexus Singularity"
+      tier: "stellar_engineering"
+      craft_method: "avaritia_neutronium_compressor_9x9"
+    unlocks: "Финальная конвергенция и завершение сборки"
+
+  s10_convergence:
+    index: 10
+    title: "Convergence"
+    description: "Абсолютная гармония магии и технологии. Финал испытания."
+    key_mods:
+      - avaritia
+      - nexus_final
+    gate_item:
+      id: "contenttweaker:convergence_core"
+      name: "Convergence Core"
+      tier: "convergence"
+      craft_method: "extreme_crafting_9x9"
+    unlocks: "Победа; доступ к творческим предметам"

@@ -1,0 +1,125 @@
+version: "1.0"
+policy:
+  single_generator_per_ore: true
+  canonical_naming: "lowercase_underscore"
+  prevent_ore_duplication: true
+
+primary_metals:
+  copper:
+    canonical_mod: "thermalfoundation"
+    ingot: "thermalfoundation:material:128"
+    nugget: "thermalfoundation:material:192"
+    dust: "thermalfoundation:material:64"
+    block: "thermalfoundation:storage:0"
+    ore: "thermalfoundation:ore:0"
+    stage: "s00_primitive"
+
+  tin:
+    canonical_mod: "thermalfoundation"
+    ingot: "thermalfoundation:material:129"
+    nugget: "thermalfoundation:material:193"
+    dust: "thermalfoundation:material:65"
+    block: "thermalfoundation:storage:1"
+    ore: "thermalfoundation:ore:1"
+    stage: "s00_primitive"
+
+  silver:
+    canonical_mod: "thermalfoundation"
+    ingot: "thermalfoundation:material:130"
+    nugget: "thermalfoundation:material:194"
+    dust: "thermalfoundation:material:66"
+    block: "thermalfoundation:storage:2"
+    ore: "thermalfoundation:ore:2"
+    stage: "s01_steam"
+
+  lead:
+    canonical_mod: "thermalfoundation"
+    ingot: "thermalfoundation:material:131"
+    nugget: "thermalfoundation:material:195"
+    dust: "thermalfoundation:material:67"
+    block: "thermalfoundation:storage:3"
+    ore: "thermalfoundation:ore:3"
+    stage: "s01_steam"
+
+  aluminum:
+    canonical_mod: "thermalfoundation"
+    ingot: "thermalfoundation:material:132"
+    nugget: "thermalfoundation:material:196"
+    dust: "thermalfoundation:material:68"
+    block: "thermalfoundation:storage:4"
+    ore: "thermalfoundation:ore:4"
+    stage: "s01_steam"
+
+  nickel:
+    canonical_mod: "thermalfoundation"
+    ingot: "thermalfoundation:material:133"
+    nugget: "thermalfoundation:material:197"
+    dust: "thermalfoundation:material:69"
+    block: "thermalfoundation:storage:5"
+    ore: "thermalfoundation:ore:5"
+    stage: "s01_steam"
+
+  steel:
+    canonical_mod: "thermalfoundation"
+    ingot: "thermalfoundation:material:160"
+    nugget: "thermalfoundation:material:224"
+    dust: "thermalfoundation:material:96"
+    block: "thermalfoundation:storage_alloy:0"
+    stage: "s01_steam"
+
+  bronze:
+    canonical_mod: "thermalfoundation"
+    ingot: "thermalfoundation:material:163"
+    nugget: "thermalfoundation:material:227"
+    dust: "thermalfoundation:material:99"
+    block: "thermalfoundation:storage_alloy:3"
+    stage: "s01_steam"
+
+magical_metals:
+  manasteel:
+    canonical_mod: "botania"
+    ingot: "botania:manaresource:0"
+    nugget: "botania:manaresource:17"
+    block: "botania:storage:0"
+    stage: "s02_awakened_nature"
+
+  terrasteel:
+    canonical_mod: "botania"
+    ingot: "botania:manaresource:4"
+    nugget: "botania:manaresource:18"
+    block: "botania:storage:1"
+    stage: "s02_awakened_nature"
+
+  elementium:
+    canonical_mod: "botania"
+    ingot: "botania:manaresource:7"
+    nugget: "botania:manaresource:19"
+    block: "botania:storage:2"
+    stage: "s05_arcane_engineering"
+
+  starmetal:
+    canonical_mod: "astralsorcery"
+    ingot: "astralsorcery:itemcraftingcomponent:1"
+    dust: "astralsorcery:itemcraftingcomponent:2"
+    stage: "s02_awakened_nature"
+
+high_tech_materials:
+  enderium:
+    canonical_mod: "thermalfoundation"
+    ingot: "thermalfoundation:material:167"
+    block: "thermalfoundation:storage_alloy:7"
+    stage: "s04_industrial_chemistry"
+
+  osmium:
+    canonical_mod: "mekanism"
+    ingot: "mekanism:ingot:1"
+    dust: "mekanism:dust:2"
+    block: "mekanism:basicblock:0"
+    stage: "s07_advanced_industry"
+
+  draconium:
+    canonical_mod: "draconicevolution"
+    ingot: "draconicevolution:draconium_ingot"
+    dust: "draconicevolution:draconium_dust"
+    block: "draconicevolution:draconium_block"
+    stage: "s09_stellar_engineering"
