@@ -28,3 +28,6 @@ instance/usernamecache.json
 *.local.yaml
 *.token
 credentials.json
+
+# Built releases
+release/*.zip
