@@ -19,8 +19,8 @@
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
-          "name:8": "Стадия 00: Первобытная эпоха",
-          "desc:8": "Добро пожаловать в Nexus Crucible! Ванильные инструменты заблокированы. Изготовьте кремневые инструменты Tinkers' Construct и обожгите Fired Foundation, чтобы открыть доступ к контролируемой металлургии.",
+          "name:8": "Стадия 00: Первобытная Эпоха",
+          "desc:8": "Добро пожаловать в Nexus Crucible!\n\nМир скован первобытным распадом. Ванильные инструменты отключены — используйте кремневые инструменты Tinkers Construct.\n\n§6Как открыть следующую эпоху:§r\nСоберите глину, кремень и обожжённый кирпич/затирку (Grout/Seared Brick/Clay), чтобы вылепить и закалить §eОбожжённый Фундамент (Fired Foundation)§r.\n\n§aРазблокировка:§r\nПри крафте или получении предмета (или кнопкой «Забрать награду») вы получите этап §6s01_steam§r, открывающий плавильню Tinkers, коксовые печи и литьё бронзы.",
           "visibility:8": "ALWAYS",
           "isSilent:1": 0,
           "icon:10": {
@@ -45,7 +45,24 @@
           ]
         }
       ],
-      "rewards:9": []
+      "rewards:9": [
+        {
+          "rewardID:8": "bq_standard:command",
+          "index:3": 0,
+          "command:8": "/gamestage add VAR_NAME s01_steam",
+          "title:8": "Разблокировка: s01_steam",
+          "desc:8": "Открывает доступ к рецептам и технологиям эпохи s01_steam",
+          "viaPlayer:1": 0,
+          "hideBlockIcon:1": 1,
+          "asScript:1": 0
+        },
+        {
+          "rewardID:8": "bq_standard:xp",
+          "index:3": 1,
+          "amount:3": 100,
+          "isLevels:1": 0
+        }
+      ]
     },
     {
       "questID:3": 1,
@@ -54,8 +71,8 @@
       ],
       "properties:10": {
         "betterquesting:10": {
-          "name:8": "Стадия 01: Сила Пара",
-          "desc:8": "Первая индустриализация. Постройте паровую инфраструктуру, освойте медь и бронзу, и соберите Pressure Assembly для перехода к природным энергиям.",
+          "name:8": "Стадия 01: Сила Пара и Металлургия",
+          "desc:8": "Эпоха пара и тяжелой металлургии.\n\n§6Основные шаги:§r\n1. Постройте Коксовую печь (Coke Oven) Immersive Engineering для получения угля и креозота.\n2. Соберите Плавильню Tinkers Construct (Smeltery) для отливки меди, олова и бронзы.\n3. Скрафтите поршень, медь, бронзу и объедините с Обожжённым Фундаментом.\n\n§6Как открыть следующую эпоху:§r\nСоберите §eУзел Давления (Pressure Assembly)§r на верстаке.\n\n§aРазблокировка:§r\nОткрывает эпоху §6s02_awakened_nature§r — природную магию Botania и звёздную силу Astral Sorcery.",
           "visibility:8": "ALWAYS",
           "isSilent:1": 0,
           "icon:10": {
@@ -80,7 +97,24 @@
           ]
         }
       ],
-      "rewards:9": []
+      "rewards:9": [
+        {
+          "rewardID:8": "bq_standard:command",
+          "index:3": 0,
+          "command:8": "/gamestage add VAR_NAME s02_awakened_nature",
+          "title:8": "Разблокировка: s02_awakened_nature",
+          "desc:8": "Открывает доступ к рецептам и технологиям эпохи s02_awakened_nature",
+          "viaPlayer:1": 0,
+          "hideBlockIcon:1": 1,
+          "asScript:1": 0
+        },
+        {
+          "rewardID:8": "bq_standard:xp",
+          "index:3": 1,
+          "amount:3": 200,
+          "isLevels:1": 0
+        }
+      ]
     },
     {
       "questID:3": 2,
@@ -90,7 +124,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Стадия 02: Пробуждённая Природа",
-          "desc:8": "Слияние жизненной маны Botania и звездной алхимии Astral Sorcery. Создайте Living Conductor — проводник, соединяющий живую силу с будущей электроникой.",
+          "desc:8": "Слияние жизненной маны и звёздного света.\n\n§6Основные шаги:§r\n1. Создайте Аптекарь Лепестков (Petal Apothecary) и вырастите Чистую Флору (Pure Daisy).\n2. Преобразуйте древесину и камень в жизнедерево (Livingwood) и жизнекамень (Livingrock).\n3. Постройте Бассейн Маны и Звёздный Верстак (Luminous Crafting Table).\n\n§6Как открыть следующую эпоху:§r\nСинтезируйте §eЖивой Проводник (Living Conductor)§r.\n\n§aРазблокировка:§r\nОткрывает эпоху §6s03_electromechanics§r — электромеханику Thermal Expansion и генераторы RF.",
           "visibility:8": "ALWAYS",
           "isSilent:1": 0,
           "icon:10": {
@@ -115,7 +149,24 @@
           ]
         }
       ],
-      "rewards:9": []
+      "rewards:9": [
+        {
+          "rewardID:8": "bq_standard:command",
+          "index:3": 0,
+          "command:8": "/gamestage add VAR_NAME s03_electromechanics",
+          "title:8": "Разблокировка: s03_electromechanics",
+          "desc:8": "Открывает доступ к рецептам и технологиям эпохи s03_electromechanics",
+          "viaPlayer:1": 0,
+          "hideBlockIcon:1": 1,
+          "asScript:1": 0
+        },
+        {
+          "rewardID:8": "bq_standard:xp",
+          "index:3": 1,
+          "amount:3": 300,
+          "isLevels:1": 0
+        }
+      ]
     },
     {
       "questID:3": 3,
@@ -124,12 +175,12 @@
       ],
       "properties:10": {
         "betterquesting:10": {
-          "name:8": "Стадия 03: Индустриальный Прорыв",
-          "desc:8": "Выплавка высокопрочной стали, первые электродвигатели и автоматизация дробления. Спрессуйте Advanced Alloy Plate.",
+          "name:8": "Стадия 03: Электромеханика и Энергия RF",
+          "desc:8": "Век машиностроения и электричества.\n\n§6Основные шаги:§r\n1. Создайте Корпус Механизма (Machine Frame), используя Живой Проводник, сталь и обработанную древесину.\n2. Постройте Индукционную Плавильню (Induction Smelter) и Дробитель (Pulverizer).\n3. Выплавьте инвар, электрум и сигнал.\n\n§6Как открыть следующую эпоху:§r\nСоберите §eИзолированное Индустриальное Ядро (Insulated Industrial Core)§r.\n\n§aРазблокировка:§r\nОткрывает эпоху §6s04_industrial_chemistry§r — нефтехимию и промышленную переработку.",
           "visibility:8": "ALWAYS",
           "isSilent:1": 0,
           "icon:10": {
-            "id:8": "contenttweaker:advanced_alloy_plate",
+            "id:8": "contenttweaker:insulated_industrial_core",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -142,7 +193,7 @@
           "taskID:8": "bq_standard:retrieval",
           "requiredItems:9": [
             {
-              "id:8": "contenttweaker:advanced_alloy_plate",
+              "id:8": "contenttweaker:insulated_industrial_core",
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": ""
@@ -150,7 +201,24 @@
           ]
         }
       ],
-      "rewards:9": []
+      "rewards:9": [
+        {
+          "rewardID:8": "bq_standard:command",
+          "index:3": 0,
+          "command:8": "/gamestage add VAR_NAME s04_industrial_chemistry",
+          "title:8": "Разблокировка: s04_industrial_chemistry",
+          "desc:8": "Открывает доступ к рецептам и технологиям эпохи s04_industrial_chemistry",
+          "viaPlayer:1": 0,
+          "hideBlockIcon:1": 1,
+          "asScript:1": 0
+        },
+        {
+          "rewardID:8": "bq_standard:xp",
+          "index:3": 1,
+          "amount:3": 400,
+          "isLevels:1": 0
+        }
+      ]
     },
     {
       "questID:3": 4,
@@ -159,12 +227,12 @@
       ],
       "properties:10": {
         "betterquesting:10": {
-          "name:8": "Стадия 04: Нефтехимия и Полимеры",
-          "desc:8": "Глубокая переработка нефти Immersive Petroleum, полимеры и синтетические композиты. Синтезируйте Polymer Resin для химически стойких компонентов.",
+          "name:8": "Стадия 04: Индустриальная Химия и Полимеры",
+          "desc:8": "Освоение углеводородов и полимерных материалов.\n\n§6Основные шаги:§r\n1. Постройте ректификационную колонну (Distillation Tower) Immersive Petroleum для крекинга нефти.\n2. Настройте экстракторы древесного сока и синтезируйте Пластик (Plastic) в Industrial Foregoing.\n3. Соберите Корпус Машины (Machine Case) Industrial Foregoing.\n\n§6Как открыть следующую эпоху:§r\nСоедините Индустриальное Ядро, кварц и огненный порошок в §eАлхимический Каркас Механизма (Alchemical Machine Frame)§r.\n\n§aРазблокировка:§r\nОткрывает эпоху §6s05_arcane_engineering§r — тайную магию Thaumcraft 6 и Blood Magic.",
           "visibility:8": "ALWAYS",
           "isSilent:1": 0,
           "icon:10": {
-            "id:8": "contenttweaker:polymer_resin",
+            "id:8": "contenttweaker:alchemical_machine_frame",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -177,7 +245,7 @@
           "taskID:8": "bq_standard:retrieval",
           "requiredItems:9": [
             {
-              "id:8": "contenttweaker:polymer_resin",
+              "id:8": "contenttweaker:alchemical_machine_frame",
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": ""
@@ -185,7 +253,24 @@
           ]
         }
       ],
-      "rewards:9": []
+      "rewards:9": [
+        {
+          "rewardID:8": "bq_standard:command",
+          "index:3": 0,
+          "command:8": "/gamestage add VAR_NAME s05_arcane_engineering",
+          "title:8": "Разблокировка: s05_arcane_engineering",
+          "desc:8": "Открывает доступ к рецептам и технологиям эпохи s05_arcane_engineering",
+          "viaPlayer:1": 0,
+          "hideBlockIcon:1": 1,
+          "asScript:1": 0
+        },
+        {
+          "rewardID:8": "bq_standard:xp",
+          "index:3": 1,
+          "amount:3": 500,
+          "isLevels:1": 0
+        }
+      ]
     },
     {
       "questID:3": 5,
@@ -194,12 +279,12 @@
       ],
       "properties:10": {
         "betterquesting:10": {
-          "name:8": "Стадия 05: Цифровая Логика",
-          "desc:8": "Компьютеризация Applied Energistics 2 и OpenComputers, микропроцессоры и квантовые расчеты. Соберите Quantum Flux Core.",
+          "name:8": "Стадия 05: Тайная Инженерия и Магия",
+          "desc:8": "Тайный алхимический синтез и трансмутация.\n\n§6Основные шаги:§r\n1. Создайте Salis Mundus и откройте Arcane Workbench и Тигель (Crucible) Thaumcraft.\n2. Возведите Кровавый Алтарь (Blood Altar) Blood Magic на базе Алхимического Каркаса.\n3. Исследуйте Сумеречный Лес (Twilight Forest) и добудьте трофеи боссов.\n\n§6Как открыть следующую эпоху:§r\nСплетите §eРуническое Логическое Ядро (Runic Logic Core)§r из Алхимического Каркаса, очей эндера и светопыли.\n\n§aРазблокировка:§r\nОткрывает эпоху §6s06_networked_factory§r — цифровые вычислительные сети Applied Energistics 2.",
           "visibility:8": "ALWAYS",
           "isSilent:1": 0,
           "icon:10": {
-            "id:8": "contenttweaker:quantum_flux_core",
+            "id:8": "contenttweaker:runic_logic_core",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -212,7 +297,7 @@
           "taskID:8": "bq_standard:retrieval",
           "requiredItems:9": [
             {
-              "id:8": "contenttweaker:quantum_flux_core",
+              "id:8": "contenttweaker:runic_logic_core",
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": ""
@@ -220,7 +305,24 @@
           ]
         }
       ],
-      "rewards:9": []
+      "rewards:9": [
+        {
+          "rewardID:8": "bq_standard:command",
+          "index:3": 0,
+          "command:8": "/gamestage add VAR_NAME s06_networked_factory",
+          "title:8": "Разблокировка: s06_networked_factory",
+          "desc:8": "Открывает доступ к рецептам и технологиям эпохи s06_networked_factory",
+          "viaPlayer:1": 0,
+          "hideBlockIcon:1": 1,
+          "asScript:1": 0
+        },
+        {
+          "rewardID:8": "bq_standard:xp",
+          "index:3": 1,
+          "amount:3": 600,
+          "isLevels:1": 0
+        }
+      ]
     },
     {
       "questID:3": 6,
@@ -229,12 +331,12 @@
       ],
       "properties:10": {
         "betterquesting:10": {
-          "name:8": "Стадия 06: Расщепление Атома",
-          "desc:8": "Ядерные реакторы NuclearCraft, радиационная защита и деление тяжелых ядер. Произведите свинцово-борированную обшивку Dense Radiation Plating.",
+          "name:8": "Стадия 06: Цифровая Сеть и Автоматизация",
+          "desc:8": "Оцифровка материи и глобальный автокрафт.\n\n§6Основные шаги:§r\n1. Постройте Инскрибер (Inscriber) и изготовьте вычислительные процессоры AE2.\n2. Соберите Верстак Расширенного Крафта 5x5 (Advanced Crafting Table).\n3. Соберите МЭ Контроллер (ME Controller) и Молекулярный Сборщик.\n\n§6Как открыть следующую эпоху:§r\nСинтезируйте §eРаспределённую Матрицу Управления (Distributed Control Matrix)§r.\n\n§aРазблокировка:§r\nОткрывает эпоху §6s07_advanced_industry§r — ядерную энергетику NuclearCraft и нанофабрикацию Mekanism.",
           "visibility:8": "ALWAYS",
           "isSilent:1": 0,
           "icon:10": {
-            "id:8": "contenttweaker:dense_radiation_plating",
+            "id:8": "contenttweaker:distributed_control_matrix",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -247,7 +349,7 @@
           "taskID:8": "bq_standard:retrieval",
           "requiredItems:9": [
             {
-              "id:8": "contenttweaker:dense_radiation_plating",
+              "id:8": "contenttweaker:distributed_control_matrix",
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": ""
@@ -255,7 +357,24 @@
           ]
         }
       ],
-      "rewards:9": []
+      "rewards:9": [
+        {
+          "rewardID:8": "bq_standard:command",
+          "index:3": 0,
+          "command:8": "/gamestage add VAR_NAME s07_advanced_industry",
+          "title:8": "Разблокировка: s07_advanced_industry",
+          "desc:8": "Открывает доступ к рецептам и технологиям эпохи s07_advanced_industry",
+          "viaPlayer:1": 0,
+          "hideBlockIcon:1": 1,
+          "asScript:1": 0
+        },
+        {
+          "rewardID:8": "bq_standard:xp",
+          "index:3": 1,
+          "amount:3": 700,
+          "isLevels:1": 0
+        }
+      ]
     },
     {
       "questID:3": 7,
@@ -264,12 +383,12 @@
       ],
       "properties:10": {
         "betterquesting:10": {
-          "name:8": "Стадия 07: Тауматургическое Слияние",
-          "desc:8": "Алхимия Thaumcraft, трансмутация эссенций и искривление пространства. Создайте Primordial Focal Matrix для объединения магии и высоких технологий.",
+          "name:8": "Стадия 07: Передовая Индустрия и Расщепление Атома",
+          "desc:8": "Ядерная физика и управление субатомными частицами.\n\n§6Основные шаги:§r\n1. Соберите Реактор Деления NuclearCraft на верстаке 5x5.\n2. Синтезируйте сплав Tough Alloy, перерабатывайте Уран и Торий.\n3. Соберите Стальной Корпус Mekanism и Обогатительную Фабрику.\n\n§6Как открыть следующую эпоху:§r\nСформируйте §eСтабилизированный Квантовый Субстрат (Stabilized Quantum Substrate)§r.\n\n§aРазблокировка:§r\nОткрывает эпоху §6s08_celestial_synthesis§r — драконическую мощь Draconic Evolution.",
           "visibility:8": "ALWAYS",
           "isSilent:1": 0,
           "icon:10": {
-            "id:8": "contenttweaker:primordial_focal_matrix",
+            "id:8": "contenttweaker:stabilized_quantum_substrate",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -282,7 +401,7 @@
           "taskID:8": "bq_standard:retrieval",
           "requiredItems:9": [
             {
-              "id:8": "contenttweaker:primordial_focal_matrix",
+              "id:8": "contenttweaker:stabilized_quantum_substrate",
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": ""
@@ -290,7 +409,24 @@
           ]
         }
       ],
-      "rewards:9": []
+      "rewards:9": [
+        {
+          "rewardID:8": "bq_standard:command",
+          "index:3": 0,
+          "command:8": "/gamestage add VAR_NAME s08_celestial_synthesis",
+          "title:8": "Разблокировка: s08_celestial_synthesis",
+          "desc:8": "Открывает доступ к рецептам и технологиям эпохи s08_celestial_synthesis",
+          "viaPlayer:1": 0,
+          "hideBlockIcon:1": 1,
+          "asScript:1": 0
+        },
+        {
+          "rewardID:8": "bq_standard:xp",
+          "index:3": 1,
+          "amount:3": 800,
+          "isLevels:1": 0
+        }
+      ]
     },
     {
       "questID:3": 8,
@@ -299,8 +435,8 @@
       ],
       "properties:10": {
         "betterquesting:10": {
-          "name:8": "Стадия 08: Небесный Синтез",
-          "desc:8": "Высшие ступени магии: Первородные жемчужины, Астральные радужные алтари и Высшие арканы. Сплетите Celestial Binding Matrix.",
+          "name:8": "Стадия 08: Звёздный Синтез и Драконическая Мощь",
+          "desc:8": "Энергия драконов и первозданный свет созвездий.\n\n§6Основные шаги:§r\n1. Соберите Верстак Расширенного Крафта 7x7 (Elite Crafting Table).\n2. Создайте Ядро Слияния (Fusion Crafting Core) Draconic Evolution.\n3. Постройте Радужный Алтарь (Iridescent Altar) Astral Sorcery 7x7.\n4. Выкуйте Дракониевые и Виверновые Ядра.\n\n§6Как открыть следующую эпоху:§r\nСоздайте §eНебесную Матрицу Связывания (Celestial Binding Matrix)§r.\n\n§aРазблокировка:§r\nОткрывает эпоху §6s09_stellar_engineering§r — сингулярности Extended Crafting.",
           "visibility:8": "ALWAYS",
           "isSilent:1": 0,
           "icon:10": {
@@ -325,7 +461,24 @@
           ]
         }
       ],
-      "rewards:9": []
+      "rewards:9": [
+        {
+          "rewardID:8": "bq_standard:command",
+          "index:3": 0,
+          "command:8": "/gamestage add VAR_NAME s09_stellar_engineering",
+          "title:8": "Разблокировка: s09_stellar_engineering",
+          "desc:8": "Открывает доступ к рецептам и технологиям эпохи s09_stellar_engineering",
+          "viaPlayer:1": 0,
+          "hideBlockIcon:1": 1,
+          "asScript:1": 0
+        },
+        {
+          "rewardID:8": "bq_standard:xp",
+          "index:3": 1,
+          "amount:3": 900,
+          "isLevels:1": 0
+        }
+      ]
     },
     {
       "questID:3": 9,
@@ -334,8 +487,8 @@
       ],
       "properties:10": {
         "betterquesting:10": {
-          "name:8": "Стадия 09: Звездная Инженерия",
-          "desc:8": "Драконический реактор, лазерная добыча ресурсов из пустоты Environmental Tech и рождение сингулярности. Сожмите сингулярность Nexus Singularity.",
+          "name:8": "Стадия 09: Сингулярная Инженерия",
+          "desc:8": "Сверхгравитационное сжатие материи в сингулярности.\n\n§6Основные шаги:§r\n1. Постройте Верстак 9x9 (Ultimate Crafting Table) Extended Crafting.\n2. Постройте Квантовый Компрессор (Quantum Compressor).\n3. Сожмите сотни тысяч слитков железа, золота и алмазов в плотные Сингулярности.\n\n§6Как открыть следующую эпоху:§r\nСожмите Небесную Матрицу, Драконье Яйцо и Звезду Незера в §eСингулярность Нексуса (Nexus Singularity)§r.\n\n§aРазблокировка:§r\nОткрывает абсолютную эпоху §6s10_convergence§r — Верстак Экстремального Крафта Avaritia и Бесконечность!",
           "visibility:8": "ALWAYS",
           "isSilent:1": 0,
           "icon:10": {
@@ -360,7 +513,24 @@
           ]
         }
       ],
-      "rewards:9": []
+      "rewards:9": [
+        {
+          "rewardID:8": "bq_standard:command",
+          "index:3": 0,
+          "command:8": "/gamestage add VAR_NAME s10_convergence",
+          "title:8": "Разблокировка: s10_convergence",
+          "desc:8": "Открывает доступ к рецептам и технологиям эпохи s10_convergence",
+          "viaPlayer:1": 0,
+          "hideBlockIcon:1": 1,
+          "asScript:1": 0
+        },
+        {
+          "rewardID:8": "bq_standard:xp",
+          "index:3": 1,
+          "amount:3": 1000,
+          "isLevels:1": 0
+        }
+      ]
     },
     {
       "questID:3": 10,
@@ -369,8 +539,8 @@
       ],
       "properties:10": {
         "betterquesting:10": {
-          "name:8": "Стадия 10: Конвергенция (Финал)",
-          "desc:8": "Абсолютная гармония между разумом, технологией и мистическими законами вселенной. Завершите финальный крафт и получите Convergence Core!",
+          "name:8": "Стадия 10: Конвергенция Вселенной (Триумф)",
+          "desc:8": "Вершина величия! Полное покорение физики и магии.\n\n§6Основные шаги:§r\n1. Создайте Верстак Экстремального Крафта 9x9 (Extreme Crafting Table) Avaritia.\n2. Выкуйте Катализатор Бесконечности (Infinity Catalyst), вобравший реликвии всех 10 глобальных модов сборки.\n3. Выплавьте Слитки Бесконечности (Infinity Ingot), скрафтите Сундук Бесконечности (Infinity Chest) и Экстремальный Автокрафтер (Extreme Auto Crafter).\n\n§6Великий Триумф:§r\nСоберите §d§lЯдро Конвергенции (Convergence Core)§r на верстаке 9x9!\nВы преодолели энтропию и завершили эпический путь Nexus Crucible!",
           "visibility:8": "ALWAYS",
           "isSilent:1": 0,
           "icon:10": {
@@ -395,7 +565,24 @@
           ]
         }
       ],
-      "rewards:9": []
+      "rewards:9": [
+        {
+          "rewardID:8": "bq_standard:command",
+          "index:3": 0,
+          "command:8": "/gamestage add VAR_NAME s10_convergence",
+          "title:8": "Разблокировка: s10_convergence",
+          "desc:8": "Открывает доступ к рецептам и технологиям эпохи s10_convergence",
+          "viaPlayer:1": 0,
+          "hideBlockIcon:1": 1,
+          "asScript:1": 0
+        },
+        {
+          "rewardID:8": "bq_standard:xp",
+          "index:3": 1,
+          "amount:3": 1100,
+          "isLevels:1": 0
+        }
+      ]
     },
     {
       "questID:3": 100,
