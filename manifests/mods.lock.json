@@ -2,62 +2,1638 @@
   "version": "1.0",
   "minecraft_version": "1.12.2",
   "forge_version": "14.23.5.2860",
-  "baseline_cluster": "core_tweakers_and_tinkers",
   "mods": {
-    "AppleSkin-mc1.12-1.0.14": {
-      "filename": "AppleSkin-mc1.12-1.0.14.jar",
-      "sha256": "4bbd37edecff0b420ab0eea166b5d7b4b41a9870bfb8647bf243140dc57f101e",
-      "size_bytes": 33683
+    "thaumcraft": {
+      "name": "Thaumcraft",
+      "mod_id": 223628,
+      "file_id": 2629023,
+      "filename": "Thaumcraft-1.12.2-6.1.BETA26.jar",
+      "sha256": "9425f8643581b27ff8845b087c8bc6fc10425a32942f1a3f0e265ce6b38f7b5f",
+      "size": 11360786
     },
-    "Clumps-3.1.2": {
-      "filename": "Clumps-3.1.2.jar",
-      "sha256": "f3ce670e0087f4c6b770fd05ae5c3dfd8462f74c62397932ea72954d1c6c8df4",
-      "size_bytes": 13792
-    },
-    "ContentTweaker-1.12.2-4.10.0": {
-      "filename": "ContentTweaker-1.12.2-4.10.0.jar",
-      "sha256": "3371fcccdda4c0701e0991d576db58e2806046c2cb27c22c1e52764080f0e3e9",
-      "size_bytes": 278152
-    },
-    "CraftTweaker2-1.12-4.1.20.698": {
-      "filename": "CraftTweaker2-1.12-4.1.20.698.jar",
-      "sha256": "b2e5e443f18d0d5bcfd1364f9ec89565e6a1e2ad4568b899c590aa5507978b27",
-      "size_bytes": 1589140
-    },
-    "Mantle-1.12-1.3.3.55": {
-      "filename": "Mantle-1.12-1.3.3.55.jar",
-      "sha256": "0975ad3ef3b8b35fe43461feabe44d406b5521b0a2f3d1965c8d2f6a59ad2e65",
-      "size_bytes": 843486
-    },
-    "TConstruct-1.12.2-2.13.0.183": {
+    "tinkers-construct": {
+      "name": "Tinkers Construct",
+      "mod_id": 74072,
+      "file_id": 2902483,
       "filename": "TConstruct-1.12.2-2.13.0.183.jar",
       "sha256": "707107f746ffc9d2bf35912953ae1ce780f7b7c4b7cf86b4821a1a151bcf9f6f",
-      "size_bytes": 4023372
+      "size": 4023372
     },
-    "base-1.12.2-3.14.0": {
-      "filename": "base-1.12.2-3.14.0.jar",
-      "sha256": "5ec979220887e4e73772ecdb5dceb8a258b4da974bd4ece8fd85cade089913d4",
-      "size_bytes": 690000
+    "tinkers-complement": {
+      "name": "Tinkers' Complement",
+      "mod_id": 272671,
+      "file_id": 2843439,
+      "filename": "TinkersComplement-1.12.2-0.4.3.jar",
+      "sha256": "09f3ff16c8204d6ed065c9ed1a717f56c824e45c12e6eda451aae3523262656c",
+      "size": 998411
     },
-    "jei_1.12.2-4.24.0.1042": {
+    "tinker-i-o": {
+      "name": "Tinker I/O",
+      "mod_id": 229503,
+      "file_id": 3102626,
+      "filename": "tinker_io-1.12.2-rw2.8.3.jar",
+      "sha256": "8720278b67082b8a93ac6fd761ad12ecb947f5715e43ed476f61644a3f843301",
+      "size": 5770361
+    },
+    "thermal-foundation": {
+      "name": "Thermal Foundation",
+      "mod_id": 222880,
+      "file_id": 2926428,
+      "filename": "ThermalFoundation-1.12.2-2.6.7.1-universal.jar",
+      "sha256": "5052f3e308b3ecb6620d26c5ab0cc15c0373732086337483a19fd4447e540ab0",
+      "size": 2219736
+    },
+    "thermal-expansion": {
+      "name": "Thermal Expansion",
+      "mod_id": 69163,
+      "file_id": 2926431,
+      "filename": "ThermalExpansion-1.12.2-5.5.7.1-universal.jar",
+      "sha256": "f1cc8aeefcda2c00235bfb5ee7f76d731325aa324e90e84d7d232d88c1e6f472",
+      "size": 2345139
+    },
+    "thermal-dynamics": {
+      "name": "Thermal Dynamics",
+      "mod_id": 227443,
+      "file_id": 2920505,
+      "filename": "ThermalDynamics-1.12.2-2.5.6.1-universal.jar",
+      "sha256": "ce3f08c8a0f36ba02fceafa47f25e80c7130727bd8e11206b37a4454d51da3b0",
+      "size": 728082
+    },
+    "thermal-cultivation": {
+      "name": "Thermal Cultivation",
+      "mod_id": 271835,
+      "file_id": 2920437,
+      "filename": "ThermalCultivation-1.12.2-0.3.6.1-universal.jar",
+      "sha256": "d26cae12decefd72dd02d959ece758ee8261f090b4cc8fdd24b870ed148b5a24",
+      "size": 98845
+    },
+    "redstone-arsenal": {
+      "name": "Redstone Arsenal",
+      "mod_id": 70631,
+      "file_id": 2939416,
+      "filename": "RedstoneArsenal-1.12.2-2.6.6.1-universal.jar",
+      "sha256": "d2cc4aeb515dcd8360e1deed588db739920e04477dc4617e4ae4ee8edf40fcd9",
+      "size": 243859
+    },
+    "immersive-engineering": {
+      "name": "Immersive Engineering",
+      "mod_id": 231951,
+      "file_id": 2974106,
+      "filename": "ImmersiveEngineering-0.12-98.jar",
+      "sha256": "1dceb974d037dae7161f9a8e9f78cb33dfaad9e3adf02d14d52a3024eb961e58",
+      "size": 6360959
+    },
+    "immersive-petroleum": {
+      "name": "Immersive Petroleum",
+      "mod_id": 268250,
+      "file_id": 3382321,
+      "filename": "immersivepetroleum-1.12.2-1.1.10.jar",
+      "sha256": "ee32e44e15e5dd3061553982a03d58a06036d9eabb16cf59cbec85ad38bcb6cc",
+      "size": 797724
+    },
+    "mct-immersive-technology": {
+      "name": "Immersive Technology",
+      "mod_id": 359407,
+      "file_id": 9438937,
+      "filename": "MCT-ImmersiveTechnology-1.12.2-1.11.216-release.jar",
+      "sha256": "29cc60a7180f56de68c876a0e7db94f32b0227e0307e97f04e6d2efc086b1e36",
+      "size": 5851778
+    },
+    "engineers-doors": {
+      "name": "Engineer's Doors",
+      "mod_id": 291126,
+      "file_id": 3023901,
+      "filename": "engineers_doors-1.12.2-0.9.1.jar",
+      "sha256": "64843925d4d45d992ae23fe9595823c257c1e998d2d0606b0abc8c15bf690108",
+      "size": 135429
+    },
+    "actually-additions": {
+      "name": "Actually Additions",
+      "mod_id": 228404,
+      "file_id": 3117927,
+      "filename": "ActuallyAdditions-1.12.2-r152.jar",
+      "sha256": "21311e401f36a58222a50b6f0d66ac29614d7ab039c961dcc307fe499da030b6",
+      "size": 2958699
+    },
+    "actually-baubles": {
+      "name": "Actually Baubles",
+      "mod_id": 273430,
+      "file_id": 2459131,
+      "filename": "ActuallyBaubles-1.12-1.1.jar",
+      "sha256": "69817c09c8f0252098142383036062ca2e91d05bd1e422e3ae6682e8423e4bc1",
+      "size": 11604
+    },
+    "ender-io": {
+      "name": "Ender IO",
+      "mod_id": 64578,
+      "file_id": 4674244,
+      "filename": "EnderIO-1.12.2-5.3.72.jar",
+      "sha256": "9b5e7756af35a191de8bc8f010c0f7c7ffc2e1e056a69ec265d1dd5ce90d19b4",
+      "size": 8946588
+    },
+    "ender-io-endergy": {
+      "name": "Ender IO Endergy",
+      "mod_id": 304346,
+      "file_id": 4674241,
+      "filename": "EnderIO-1.12.2-5.3.72.jar",
+      "sha256": "9b5e7756af35a191de8bc8f010c0f7c7ffc2e1e056a69ec265d1dd5ce90d19b4",
+      "size": 8946588
+    },
+    "gas-conduits": {
+      "name": "Gas Conduits",
+      "mod_id": 309756,
+      "file_id": 4674242,
+      "filename": "EnderIO-1.12.2-5.3.72.jar",
+      "sha256": "9b5e7756af35a191de8bc8f010c0f7c7ffc2e1e056a69ec265d1dd5ce90d19b4",
+      "size": 8946588
+    },
+    "industrial-foregoing": {
+      "name": "Industrial Foregoing",
+      "mod_id": 266515,
+      "file_id": 2745321,
+      "filename": "industrialforegoing-1.12.2-1.12.13-237.jar",
+      "sha256": "8b6e1aa820d7d02571aeae818b4ab9aa2d78e0d3b277d7be6df53e3153ae9ea7",
+      "size": 1603134
+    },
+    "integration-foregoing": {
+      "name": "Integration Foregoing",
+      "mod_id": 277938,
+      "file_id": 3200529,
+      "filename": "IntegrationForegoing-1.12.2-1.11.jar",
+      "sha256": "f38ee79126f39002555e904b9baa7f963c4e3f96a734227c3f0fd5f980b42896",
+      "size": 220777
+    },
+    "mekanism": {
+      "name": "Mekanism",
+      "mod_id": 268560,
+      "file_id": 2835175,
+      "filename": "Mekanism-1.12.2-9.8.3.390.jar",
+      "sha256": "17573e0c3b2ff9d071a719a06a84c8cd89ca26d1ea3bd7f6e9f3842c4df88ea1",
+      "size": 7863657
+    },
+    "mekanism-generators": {
+      "name": "Mekanism Generators",
+      "mod_id": 268566,
+      "file_id": 2835177,
+      "filename": "MekanismGenerators-1.12.2-9.8.3.390.jar",
+      "sha256": "2bc1f1b8601abd40180eab9666e34a947d1be9e9b878ffd788d4b44e7713313c",
+      "size": 336364
+    },
+    "nuclearcraft-mod": {
+      "name": "NuclearCraft",
+      "mod_id": 226254,
+      "file_id": 9469401,
+      "filename": "nuclearcraft-1.12.2-2.19d.jar",
+      "sha256": "874099861c280a6d0e30c4249e0a8060486375950b4acad8a29153bd57c46930",
+      "size": 6911182
+    },
+    "advanced-generators": {
+      "name": "Advanced Generators",
+      "mod_id": 223622,
+      "file_id": 2516219,
+      "filename": "generators-0.9.20.12-mc1.12.2.jar",
+      "sha256": "b691c1413be669b83e83c4ab9c3d0248e9a1a9214155b7b5d065bfe3bfc05d36",
+      "size": 1674251
+    },
+    "forestry": {
+      "name": "Forestry",
+      "mod_id": 59751,
+      "file_id": 7398359,
+      "filename": "forestry_1.12.2-5.8.2.427.jar",
+      "sha256": "4ef79e7b554776522d88e405e4e76f9b2997ee46edf9a06b00bafd57988feed7",
+      "size": 5399484
+    },
+    "gendustry": {
+      "name": "Gendustry",
+      "mod_id": 70492,
+      "file_id": 2516215,
+      "filename": "gendustry-1.6.5.8-mc1.12.2.jar",
+      "sha256": "21952b5b2f4a89a3b80029042ec7b07d99835e56683d2c17e130a1144922b38d",
+      "size": 1856305
+    },
+    "applied-energistics-2": {
+      "name": "Applied Energistics 2",
+      "mod_id": 223794,
+      "file_id": 2747063,
+      "filename": "appliedenergistics2-rv6-stable-7.jar",
+      "sha256": "e7f7fbf6caaf6206dbd958fb8f9185f874a405289e62ae3e97209b455a89fb1a",
+      "size": 4062630
+    },
+    "ae2-stuff": {
+      "name": "AE2 Stuff",
+      "mod_id": 225194,
+      "file_id": 2491032,
+      "filename": "ae2stuff-0.7.0.4-mc1.12.2.jar",
+      "sha256": "123038d365611d0b074f2d1a100962198c72a8386b0b56e09395b4070ff4190f",
+      "size": 513374
+    },
+    "wireless-crafting-terminal": {
+      "name": "Wireless Crafting Terminal",
+      "mod_id": 244559,
+      "file_id": 2830252,
+      "filename": "WirelessCraftingTerminal-1.12.2-3.12.97.jar",
+      "sha256": "69e5b82f33925169e33456a5f6b3202917c06fc34f1f32f71cf553b0733f0114",
+      "size": 242030
+    },
+    "packagedauto": {
+      "name": "PackagedAuto",
+      "mod_id": 308380,
+      "file_id": 7329681,
+      "filename": "PackagedAuto-1.12.2-1.0.24.73.jar",
+      "sha256": "96cfdec2d86107f4d89de7f1cc50e65dc50b07fc8a5834198c7c3b5dc52be282",
+      "size": 390433
+    },
+    "xnet": {
+      "name": "XNet",
+      "mod_id": 260912,
+      "file_id": 2745852,
+      "filename": "xnet-1.12-1.8.2.jar",
+      "sha256": "37b39fb2e10bf3a991952317d68cf137c7470060197ce74a5826699fac0326fc",
+      "size": 496307
+    },
+    "integrated-dynamics": {
+      "name": "Integrated Dynamics",
+      "mod_id": 236307,
+      "file_id": 3159505,
+      "filename": "IntegratedDynamics-1.12.2-1.1.11.jar",
+      "sha256": "88d3da662fc35c6709d0dc6931682318bb84964e169819fa8291e2f41451b5f1",
+      "size": 3049509
+    },
+    "integrated-tunnels": {
+      "name": "Integrated Tunnels",
+      "mod_id": 251389,
+      "file_id": 3159511,
+      "filename": "IntegratedTunnels-1.12.2-1.6.14.jar",
+      "sha256": "4bd7652951fcdc81fcfa29ae5e91926796e17395bb33599e4d1e7f53deed1b56",
+      "size": 493503
+    },
+    "integrated-nbt": {
+      "name": "Integrated NBT",
+      "mod_id": 380998,
+      "file_id": 3132891,
+      "filename": "integratednbt-1.2.2.jar",
+      "sha256": "4e0dc8eb527ed2eba55697ac109337805f2eda366ad120c9c58fd769d1c33179",
+      "size": 114838
+    },
+    "cc-tweaked": {
+      "name": "CC: Tweaked",
+      "mod_id": 282001,
+      "file_id": 2992872,
+      "filename": "cc-tweaked-1.12.2-1.89.2.jar",
+      "sha256": "f32537175f89ddc9890550a158a910e746cac2848db8f6f123865bd4a8a425fb",
+      "size": 1815047
+    },
+    "opencomputers": {
+      "name": "OpenComputers",
+      "mod_id": 223008,
+      "file_id": 8582726,
+      "filename": "OpenComputers-MC1.12.2-1.8.10+258943363.jar",
+      "sha256": "9ba075d1bbdebe0c253bd6594deedcb81cdec3158ec7afc6c76ff8f5986c6816",
+      "size": 16641399
+    },
+    "plethora-peripherals": {
+      "name": "Plethora Peripherals",
+      "mod_id": 248425,
+      "file_id": 2858569,
+      "filename": "plethora-1.12.2-1.2.3.jar",
+      "sha256": "94cc1c05725d81270aee57a3fcce58b726603c272a8d1ad527bbe1379aa85361",
+      "size": 1097627
+    },
+    "rftools": {
+      "name": "RFTools",
+      "mod_id": 224641,
+      "file_id": 2861573,
+      "filename": "rftools-1.12-7.73.jar",
+      "sha256": "558c38d0f7852d17a03aef81e4bd6cc2f28e60db8a8749c710c9ee829f2de0a4",
+      "size": 2895803
+    },
+    "rftools-control": {
+      "name": "RFTools Control",
+      "mod_id": 250763,
+      "file_id": 2705813,
+      "filename": "rftoolsctrl-1.12-2.0.2.jar",
+      "sha256": "77a4c5f23f73cb4597ea6ee97e6ff5dd0a5eb94d1f25bfd031516b335dc92efe",
+      "size": 600728
+    },
+    "compact-machines": {
+      "name": "Compact Machines",
+      "mod_id": 224218,
+      "file_id": 2707509,
+      "filename": "compactmachines3-1.12.2-3.0.18-b278.jar",
+      "sha256": "61d9bb9eb409f3a3e0ded5870aa6cbb101cedc81f5fbb1ab6bfcd65b3ff51de1",
+      "size": 730062
+    },
+    "ender-storage-1-8": {
+      "name": "Ender Storage 1.8.+",
+      "mod_id": 245174,
+      "file_id": 2755787,
+      "filename": "EnderStorage-1.12.2-2.4.6.137-universal.jar",
+      "sha256": "06e2357019f4e0836bfb9202af013adc125252f610b198a7a547d4596d2934c0",
+      "size": 223250
+    },
+    "storage-drawers": {
+      "name": "Storage Drawers",
+      "mod_id": 223852,
+      "file_id": 5981297,
+      "filename": "StorageDrawers-1.12.2-5.5.3.jar",
+      "sha256": "26337559bad06539175f0a5fe886db816f0f6045d96be4737493a0e669117e2f",
+      "size": 621871
+    },
+    "framed-compacting-drawers": {
+      "name": "Framed Compacting Drawers",
+      "mod_id": 376351,
+      "file_id": 3015136,
+      "filename": "framedcompactdrawers-1.2.7.jar",
+      "sha256": "0b5ef2bac1feb334132e4b18434390d772e534d038b9d062b98f1ed8d8029dcb",
+      "size": 90351
+    },
+    "iron-chests": {
+      "name": "Iron Chests",
+      "mod_id": 228756,
+      "file_id": 2747935,
+      "filename": "ironchest-1.12.2-7.0.72.847.jar",
+      "sha256": "29d3a4115d67b83eb542b618eb64db40db23a7f009a0f4dc9a396101d6f8491f",
+      "size": 956692
+    },
+    "flux-networks": {
+      "name": "Flux Networks",
+      "mod_id": 248020,
+      "file_id": 3178199,
+      "filename": "FluxNetworks-1.12.2-4.1.1.34.jar",
+      "sha256": "9b48fcbf576095e0258379435c4a8bb15c5d1c2087edbe97fb4631e2e5cc98c6",
+      "size": 475994
+    },
+    "modular-machinery": {
+      "name": "Modular Machinery",
+      "mod_id": 270790,
+      "file_id": 2761302,
+      "filename": "modularmachinery-1.12.2-1.11.1.jar",
+      "sha256": "bfee09b2825d7e205a025818b2ee77264b6e92b9d1657b2b7d56941f387d8846",
+      "size": 684030
+    },
+    "botania": {
+      "name": "Botania",
+      "mod_id": 225643,
+      "file_id": 3330934,
+      "filename": "Botania r1.10-364.4.jar",
+      "sha256": "8962beb2c583720a83858f58bd6afc891185b50d868c712549a96b191339b52a",
+      "size": 13817704
+    },
+    "astral-sorcery": {
+      "name": "Astral Sorcery",
+      "mod_id": 241721,
+      "file_id": 3044416,
+      "filename": "astralsorcery-1.12.2-1.10.27.jar",
+      "sha256": "771107764cad17a30b37f683fd6889384a916981b1c8ed63826ec0a335efae86",
+      "size": 25028160
+    },
+    "blood-magic": {
+      "name": "Blood Magic ",
+      "mod_id": 224791,
+      "file_id": 2822288,
+      "filename": "BloodMagic-1.12.2-2.4.3-105.jar",
+      "sha256": "ef187aea109446bdb7b35e06958d4c6d22f5f7ceb4e5bcaeab16f3ad29fe16a5",
+      "size": 7208594
+    },
+    "animus": {
+      "name": "Animus",
+      "mod_id": 229664,
+      "file_id": 2888473,
+      "filename": "Animus-1.12-2.1.7.jar",
+      "sha256": "c748d5276efd549fdd0a487396614142b53ec8823aeb4eebbf02325b499a07a1",
+      "size": 349684
+    },
+    "thaumic-tinkerer": {
+      "name": "Thaumic Tinkerer",
+      "mod_id": 75598,
+      "file_id": 2957213,
+      "filename": "thaumictinkerer-1.12.2-5.0-620a0c5.jar",
+      "sha256": "c0d7f101d48df20753aca7eb2df4a70cf26fc432036f56740547a162da06d628",
+      "size": 1884011
+    },
+    "psi": {
+      "name": "Psi",
+      "mod_id": 241665,
+      "file_id": 3085917,
+      "filename": "Psi-r1.1-78.2.jar",
+      "sha256": "bf155eaf33eabbcc4fdecc1fe45e8c47004e393287583e6565a44750a7457f24",
+      "size": 1760320
+    },
+    "avaritia-1-10": {
+      "name": "Avaritia 1.1x",
+      "mod_id": 261348,
+      "file_id": 3143349,
+      "filename": "Avaritia-1.12.2-3.3.0.37-universal.jar",
+      "sha256": "e37b89bf89d5cb75d0605cf03863537b7e52a73e2ff6fb033161989c43d33876",
+      "size": 975727
+    },
+    "draconic-evolution": {
+      "name": "Draconic Evolution",
+      "mod_id": 223565,
+      "file_id": 3431261,
+      "filename": "Draconic-Evolution-1.12.2-2.3.28.354-universal.jar",
+      "sha256": "1eecdefa00056efac98ff56e25f7ed840b70e2d809c628e38c9c5b5518ff14ff",
+      "size": 5708839
+    },
+    "environmental-tech": {
+      "name": "Environmental Tech",
+      "mod_id": 245453,
+      "file_id": 9414640,
+      "filename": "environmentaltech-1.12.2-2.1.0.0.jar",
+      "sha256": "857f6463466a4e368d9220cf29375326dc7f911130e73358202e3f9761a07839",
+      "size": 930130
+    },
+    "environmental-materials": {
+      "name": "Environmental Materials",
+      "mod_id": 278825,
+      "file_id": 9414641,
+      "filename": "environmentalmaterials-1.12.2-1.1.0.0.jar",
+      "sha256": "1d5e7af3db63d423163e7823c45d199f76a9ca9a29547109305bcca6784f1236",
+      "size": 767378
+    },
+    "mystical-agriculture": {
+      "name": "Mystical Agriculture",
+      "mod_id": 246640,
+      "file_id": 2704562,
+      "filename": "MysticalAgriculture-1.12.2-1.7.5.jar",
+      "sha256": "e84a70bbcb5dc559d28c7bc65f1ef1af512485097ad89c6748249b173019975c",
+      "size": 1536124
+    },
+    "mystical-agradditions": {
+      "name": "Mystical Agradditions",
+      "mod_id": 256247,
+      "file_id": 2704832,
+      "filename": "MysticalAgradditions-1.12.2-1.3.2.jar",
+      "sha256": "58094bdace050ce943bc4b14033abc63e91e705233fc24c2d7f8d786c714884f",
+      "size": 134055
+    },
+    "mystagrad-cloche-compat": {
+      "name": "MystAgrad Cloche Compat",
+      "mod_id": 288959,
+      "file_id": 2535057,
+      "filename": "mystagradcompat-1.2.jar",
+      "sha256": "5c85f184fd328473b8ea4b8725db58f49b6768a396c341a43a8654cf6bc32306",
+      "size": 8943
+    },
+    "akashic-tome": {
+      "name": "Akashic Tome",
+      "mod_id": 250577,
+      "file_id": 2648656,
+      "filename": "AkashicTome-1.2-12.jar",
+      "sha256": "4edda1cb9a1eb9240b7c9087dfc0347b0f75c29f7239299991b27324524b167f",
+      "size": 44663
+    },
+    "morph-o-tool": {
+      "name": "Morph-o-Tool",
+      "mod_id": 245287,
+      "file_id": 2658176,
+      "filename": "Morph-o-Tool-1.2-21.jar",
+      "sha256": "c36065b106f735cc541188ac2db8301032d32de32ce8d57a58d11a306e04b29b",
+      "size": 30619
+    },
+    "thaumic-computers": {
+      "name": "Thaumic Computers",
+      "mod_id": 293768,
+      "file_id": 2777074,
+      "filename": "ThaumicComputers-MC1.12.2-0.5.1.jar",
+      "sha256": "e78344d41d77e7cfcbea79cf3ecb7a84ddbb097dbc41a61f0aaaa8005da54e4e",
+      "size": 36968
+    },
+    "biomes-o-plenty": {
+      "name": "Biomes O' Plenty",
+      "mod_id": 220318,
+      "file_id": 3558882,
+      "filename": "BiomesOPlenty-1.12.2-7.0.1.2445-universal.jar",
+      "sha256": "1c53d3ee39f557162591f618c58b79dc6861d24522ef785794ee4a815f8a3908",
+      "size": 4746208
+    },
+    "cofh-world": {
+      "name": "CoFH World",
+      "mod_id": 271384,
+      "file_id": 2920434,
+      "filename": "CoFHWorld-1.12.2-1.4.0.1-universal.jar",
+      "sha256": "f10cd57075690ecbe52094f8af0d2a5af12f89c82b7c6eb73d3d090d74206ea0",
+      "size": 505987
+    },
+    "the-twilight-forest": {
+      "name": "The Twilight Forest",
+      "mod_id": 227639,
+      "file_id": 3051450,
+      "filename": "twilightforest-1.12.2-3.11.1021-universal.jar",
+      "sha256": "e1cee0a1e8f4aaedbd4381308fe6f32a6f69935e7bfb0df0748c2b292fb821ce",
+      "size": 28721862
+    },
+    "ice-and-fire-dragons": {
+      "name": "Ice and Fire: Dragons",
+      "mod_id": 264231,
+      "file_id": 2939529,
+      "filename": "iceandfire-1.9.1-1.12.2.jar",
+      "sha256": "5f52931991f8f7d8dd7f52952dff0f93baea6dad9031f25ce8f864771b362257",
+      "size": 20467820
+    },
+    "in-control": {
+      "name": "In Control!",
+      "mod_id": 257356,
+      "file_id": 3101719,
+      "filename": "incontrol-1.12-3.9.18.jar",
+      "sha256": "b249e9e59a20549fc7080108629f0089cab7f3f16241fea8f5070bb8178f83c3",
+      "size": 152687
+    },
+    "recurrent-complex": {
+      "name": "Recurrent Complex",
+      "mod_id": 223150,
+      "file_id": 8562927,
+      "filename": "RecurrentComplex-1.4.8.7.jar",
+      "sha256": "f0019fd07cfea901c2e52da75064d24195d23ce730cee2d1c4789fb6473a8819",
+      "size": 5750745
+    },
+    "pams-harvestcraft": {
+      "name": "Pam's HarvestCraft",
+      "mod_id": 221857,
+      "file_id": 2904825,
+      "filename": "Pam's HarvestCraft 1.12.2zg.jar",
+      "sha256": "9542e0863473b2cf61eff3fa7bdb9f096aaf7fc446c54750cbaa9db47a58f2fa",
+      "size": 4912890
+    },
+    "cooking-for-blockheads": {
+      "name": "Cooking for Blockheads",
+      "mod_id": 231484,
+      "file_id": 2862651,
+      "filename": "CookingForBlockheads_1.12.2-6.5.0.jar",
+      "sha256": "3a8ed073a9d84213d6a1f2947bf9e8a4e70730fa123e3ca53769fdc99ef4db9b",
+      "size": 595301
+    },
+    "farming-for-blockheads": {
+      "name": "Farming for Blockheads",
+      "mod_id": 261924,
+      "file_id": 2733508,
+      "filename": "FarmingForBlockheads_1.12.2-3.1.28.jar",
+      "sha256": "d696ac6efd28368a3661131d06f0cf1cdbca1e8ac45f16e5ec2aa859e7d14911",
+      "size": 246686
+    },
+    "natures-compass": {
+      "name": "Nature's Compass",
+      "mod_id": 252848,
+      "file_id": 2893527,
+      "filename": "NaturesCompass-1.12.2-1.8.5.jar",
+      "sha256": "bd4f556b7e5480687dbc09735dca05a1ceb3622dc93422adb5dab4f68cc9f2d1",
+      "size": 196434
+    },
+    "scannable": {
+      "name": "Scannable",
+      "mod_id": 266784,
+      "file_id": 3146549,
+      "filename": "Scannable-MC1.12.2-1.6.3.26.jar",
+      "sha256": "e728e72960137660a0e201f404fa27087d3719594ddb6c9064f7380412555f2d",
+      "size": 252718
+    },
+    "emberroot-zoo": {
+      "name": "EmberRoot Zoo",
+      "mod_id": 273711,
+      "file_id": 2632466,
+      "filename": "EmberRootZoo-1.12.2-1.3.10.jar",
+      "sha256": "2e36dfae28710e1bbbaa99310474abed8eb34cf82ba194dd61c109743fa98ebf",
+      "size": 1253567
+    },
+    "no-mob-spawning-on-trees": {
+      "name": "No Mob Spawning on Trees",
+      "mod_id": 226779,
+      "file_id": 2563292,
+      "filename": "NoMobSpawningOnTrees-1.2.2-mc1.12.2.jar",
+      "sha256": "e42c13bfeed020ecfbb1dff238708f16d1775045ed5455a34e06f485d7a198c2",
+      "size": 40598
+    },
+    "pretty-beaches": {
+      "name": "Pretty Beaches",
+      "mod_id": 290659,
+      "file_id": 3067807,
+      "filename": "PrettyBeaches_1.12.2-1.1.0.jar",
+      "sha256": "0209896ed6405a9737dcc4231ba91ad059d2556bfb0c69aeccd747642d264955",
+      "size": 10006
+    },
+    "quick-leaf-decay": {
+      "name": "Quick Leaf Decay",
+      "mod_id": 225839,
+      "file_id": 2469364,
+      "filename": "QuickLeafDecay-MC1.12.1-1.2.4.jar",
+      "sha256": "5aaa4fb7e0056d9fc7624b5bc9f39b9d00ad0eef39ab7f2617540e9184e9f690",
+      "size": 7074
+    },
+    "clay-bucket": {
+      "name": "Clay Bucket",
+      "mod_id": 242568,
+      "file_id": 2463480,
+      "filename": "ClayBucket-1.12-1.1.jar",
+      "sha256": "bb6f8385b0dbd5e3ff8a96a278f2c7a3d4f477da82968c69ddb3ecc3ba8518cc",
+      "size": 17213
+    },
+    "jei": {
+      "name": "Just Enough Items (JEI)",
+      "mod_id": 238222,
+      "file_id": 8964563,
       "filename": "jei_1.12.2-4.24.0.1042.jar",
       "sha256": "84c87f5455d2c18a470c22adabe9757511ec012651aa02a3714a42241b16abed",
-      "size_bytes": 743391
+      "size": 743391
     },
-    "mixinbooter-10.5": {
-      "filename": "mixinbooter-10.5.jar",
-      "sha256": "ba309343c021db547badef0cd60d3d51c34f01632bca2f904614478a88067987",
-      "size_bytes": 2380953
+    "just-enough-resources-jer": {
+      "name": "Just Enough Resources (JER)",
+      "mod_id": 240630,
+      "file_id": 2728585,
+      "filename": "JustEnoughResources-1.12.2-0.9.2.60.jar",
+      "sha256": "9ea4d7df19c0a53880aae5e745ef1e886854bea5c533878688587a5e3fdaebdd",
+      "size": 222270
     },
-    "modtweaker-4.0.20.11": {
+    "jei-bees": {
+      "name": "JEI Bees",
+      "mod_id": 248370,
+      "file_id": 2490058,
+      "filename": "jeibees-0.9.0.5-mc1.12.2.jar",
+      "sha256": "07c6c95eddf0f6f3d15339f373da51a638716c3cbe69f93da5586f7957e3c22a",
+      "size": 117480
+    },
+    "jei-villagers": {
+      "name": "JEI Villagers",
+      "mod_id": 283013,
+      "file_id": 2508393,
+      "filename": "jeivillagers-1.12-1.0.2.jar",
+      "sha256": "fe4a439a655e2189442dd956de008f3de81f3eeaf5138679e812d690ea125785",
+      "size": 26491
+    },
+    "jetif": {
+      "name": "Just Enough Throwing In Fluids (JETIF)",
+      "mod_id": 303122,
+      "file_id": 2919936,
+      "filename": "jetif-1.12.2-1.5.2.jar",
+      "sha256": "fc0609f69a0d527849d76253d53e0a55b9a3745906c5457d845ffbd2450422fd",
+      "size": 29003
+    },
+    "just-enough-petroleum": {
+      "name": "Just Enough Petroleum",
+      "mod_id": 291727,
+      "file_id": 2549332,
+      "filename": "JustEnoughPetroleum-0.1.jar",
+      "sha256": "26f60a6549f5167aa10e03a25f3180a310d4cb7f1521d6ee04fcb0db2fefd5e3",
+      "size": 18945
+    },
+    "gendustry-jei-addon": {
+      "name": "Gendustry JEI Addon",
+      "mod_id": 301364,
+      "file_id": 2609434,
+      "filename": "gendustryjei-1.0.2.jar",
+      "sha256": "5e56b6e1eab94eb92740437fc9906756ec6a3a1b3f4d4b2c4caee833b6ca7ae0",
+      "size": 67472
+    },
+    "tinkers-jei": {
+      "name": "Tinker's JEI",
+      "mod_id": 291786,
+      "file_id": 2701203,
+      "filename": "tinkersjei-1.2.jar",
+      "sha256": "526d4fb23d033a79c44276b68746ab3f653e960c7101a9d62f51a12940730b94",
+      "size": 12255
+    },
+    "thaumic-jei": {
+      "name": "Thaumic JEI",
+      "mod_id": 285492,
+      "file_id": 5646810,
+      "filename": "ThaumicJEI-1.12.2-1.7.0.jar",
+      "sha256": "df34181baa520fc3723c5a9a776e5ede1e550df55705cdb3bbeb9ed8675bc2fa",
+      "size": 58100
+    },
+    "thaumcraft-6-aspects-for-jei": {
+      "name": "Thaumcraft 6 Aspects for JEI",
+      "mod_id": 295765,
+      "file_id": 2579495,
+      "filename": "tc6aspects4jei-0.0.2a.jar",
+      "sha256": "89420c44b4514ef5e73cb12d76020be4509337c121ef0554d52fdade555deda1",
+      "size": 15236
+    },
+    "bloodmagic-meteors-jei-support": {
+      "name": "BloodMagic Meteors JEI  Support",
+      "mod_id": 1092271,
+      "file_id": 5671051,
+      "filename": "bmj-1.0.2.jar",
+      "sha256": "bf2f40340a428a32a5f1c62314f9ad6dc7f01ef1f872a792704b9f7a1e9159df",
+      "size": 10652
+    },
+    "just-enough-harvestcraft": {
+      "name": "Just Enough HarvestCraft (JEHC)",
+      "mod_id": 267939,
+      "file_id": 2997129,
+      "filename": "JustEnoughResources-1.12.2-0.9.2.60.jar",
+      "sha256": "9ea4d7df19c0a53880aae5e745ef1e886854bea5c533878688587a5e3fdaebdd",
+      "size": 222270
+    },
+    "just-enough-energistics-jee": {
+      "name": "Just Enough Energistics (JEE)",
+      "mod_id": 310812,
+      "file_id": 2783832,
+      "filename": "JustEnoughEnergistics-1.12.2-1.0.8.jar",
+      "sha256": "fa2f6fdfd3a43dee11b250ea079158b1cc5760c3dbdc2b031bd7cc2804f92f92",
+      "size": 22714
+    },
+    "hwyla": {
+      "name": "Hwyla",
+      "mod_id": 253449,
+      "file_id": 2568751,
+      "filename": "Hwyla-1.8.26-B41_1.12.2.jar",
+      "sha256": "e9ddecd4920ee9a57e11e4b43fb1dd395bbf37e276be726a99a2590272304124",
+      "size": 453778
+    },
+    "waila-harvestability": {
+      "name": "Waila Harvestability",
+      "mod_id": 79287,
+      "file_id": 2481605,
+      "filename": "WailaHarvestability-mc1.12-1.1.12.jar",
+      "sha256": "f445cdccfe824a895ace7cb83d29cfb17d5b3c3383949298e44c2da8697237f0",
+      "size": 31462
+    },
+    "wawla": {
+      "name": "Wawla - What Are We Looking At",
+      "mod_id": 224712,
+      "file_id": 2916368,
+      "filename": "Wawla-1.12.2-2.6.275.jar",
+      "sha256": "272a3229f669bfe1bc1af748bf8f5fe312c2efa11f6798584f1029b899d95453",
+      "size": 94115
+    },
+    "inventory-tweaks": {
+      "name": "Inventory Tweaks [1.12 only] ",
+      "mod_id": 223094,
+      "file_id": 2482481,
+      "filename": "InventoryTweaks-1.63.jar",
+      "sha256": "ef2fdcb59f9a766ee5c3c4c514c78f0a9e35b3d6bf02c17051b7dd4e94efdf7a",
+      "size": 263258
+    },
+    "mouse-tweaks-unofficial": {
+      "name": "Mouse Tweaks Unofficial",
+      "mod_id": 461660,
+      "file_id": 9330373,
+      "filename": "mousetweaks-1.12.2-3.2.1.jar",
+      "sha256": "48eec53cb6e9883dcfaa52d8b6d06532522fbe9f5bbbd7a8794d5187b09aec41",
+      "size": 203822
+    },
+    "controlling": {
+      "name": "Controlling",
+      "mod_id": 250398,
+      "file_id": 5408385,
+      "filename": "Controlling-3.0.12.4.jar",
+      "sha256": "f5edd4793f96cd5a6f31aecbd3030093b367a51afba5d6f7281756d0f9c03786",
+      "size": 34383
+    },
+    "better-advancements": {
+      "name": "Better Advancements",
+      "mod_id": 272515,
+      "file_id": 2685984,
+      "filename": "BetterAdvancements-1.12.2-0.1.0.77.jar",
+      "sha256": "c70cda15d9c76cc79423399c1002977d6dfcc229128b33b87f25d5b4238bea34",
+      "size": 62668
+    },
+    "better-builders-wands": {
+      "name": "Better Builder's Wands",
+      "mod_id": 238403,
+      "file_id": 2443194,
+      "filename": "BetterBuildersWands-1.12-0.11.1.245+69d0d70.jar",
+      "sha256": "f10e9db9cee878032dd674068bc12e6b871d88b83360e7d6ff207023dea7beed",
+      "size": 75709
+    },
+    "building-gadgets": {
+      "name": "Building Gadgets",
+      "mod_id": 298187,
+      "file_id": 3005950,
+      "filename": "BuildingGadgets-2.8.4.jar",
+      "sha256": "1f130a49dbcdd56ec24df38710d6fe67e95880294f9941c28a4d4a104d1ddec5",
+      "size": 719492
+    },
+    "carry-on": {
+      "name": "Carry On",
+      "mod_id": 274259,
+      "file_id": 4507139,
+      "filename": "carryon-1.12.2-1.12.7.23.jar",
+      "sha256": "02fb9cee20990687149d19f668cd6383164a2b275c3dce0e43ca2b6f6a03f070",
+      "size": 309188
+    },
+    "forge-backpacks": {
+      "name": "Backpacks",
+      "mod_id": 59143,
+      "file_id": 2554237,
+      "filename": "backpack-3.0.2-1.12.2.jar",
+      "sha256": "f0c699d83808fe952357b77b5396746cf55b7bdbe28a43800ba3a1f1091df41e",
+      "size": 236435
+    },
+    "dank-null": {
+      "name": "/dank/null",
+      "mod_id": 272514,
+      "file_id": 2920596,
+      "filename": "DankNull-1.12.2-1.7.91.jar",
+      "sha256": "8e12867437df144d01307a1b76d60df35432d66f032df52aeab9a216c1b18437",
+      "size": 333253
+    },
+    "ore-excavation": {
+      "name": "Ore Excavation",
+      "mod_id": 250898,
+      "file_id": 2897369,
+      "filename": "OreExcavation-1.4.150.jar",
+      "sha256": "535c5a8e2d708fa810687698425f982f16c326c0cc91fa5eec08194d65ef2c28",
+      "size": 184743
+    },
+    "broken-wings": {
+      "name": "Broken Wings",
+      "mod_id": 293704,
+      "file_id": 3247511,
+      "filename": "brokenwings-3.0.0.jar",
+      "sha256": "a9d04278694be8131ff9e02dd08e2d33aacb0771cee16e244addceb68d211290",
+      "size": 39412
+    },
+    "tomb-many-graves-2": {
+      "name": "Tomb Many Graves 2",
+      "mod_id": 262823,
+      "file_id": 2619249,
+      "filename": "TombManyGraves-1.12-4.2.0.jar",
+      "sha256": "3fef07b3124a16250645c9549b9b67e0a85dde29b5b27b16d33581b531f25fce",
+      "size": 150657
+    },
+    "cosmetic-armor-reworked": {
+      "name": "Cosmetic Armor Reworked",
+      "mod_id": 237307,
+      "file_id": 2937869,
+      "filename": "CosmeticArmorReworked-1.12.2-v5a.jar",
+      "sha256": "a1dac96cf2168015255f4cad8748e8b969e99bd0919e9cb78deb9198ee9753e8",
+      "size": 72111
+    },
+    "appleskin": {
+      "name": "AppleSkin",
+      "mod_id": 248787,
+      "file_id": 2987247,
+      "filename": "AppleSkin-mc1.12-1.0.14.jar",
+      "sha256": "4bbd37edecff0b420ab0eea166b5d7b4b41a9870bfb8647bf243140dc57f101e",
+      "size": 33683
+    },
+    "applecore": {
+      "name": "AppleCore",
+      "mod_id": 224472,
+      "file_id": 2969118,
+      "filename": "AppleCore-mc1.12.2-3.4.0.jar",
+      "sha256": "9e4980728afb5941bdd67c435d2fddf260d88685563343f32d009bae01b64962",
+      "size": 89615
+    },
+    "spice-of-life-carrot-edition": {
+      "name": "Spice of Life: Carrot Edition",
+      "mod_id": 277616,
+      "file_id": 2959847,
+      "filename": "solcarrot-1.12.2-1.8.4.jar",
+      "sha256": "02ba2338e4fcb225aa6bd6a29ceba81eb15966b749b49c0e3adc85d8ce77fabc",
+      "size": 641217
+    },
+    "neat": {
+      "name": "Neat",
+      "mod_id": 238372,
+      "file_id": 2595310,
+      "filename": "Neat 1.4-17.jar",
+      "sha256": "2062c99a371921fb2eb7cf6833d682c05244ca5a527db8f0c36e7f12c8ca1379",
+      "size": 18527
+    },
+    "armor-toughness-bar": {
+      "name": "Armor Toughness Bar",
+      "mod_id": 313816,
+      "file_id": 2851670,
+      "filename": "toughnessbar-2.4.jar",
+      "sha256": "f8457c69396678016e8154decdd54205ee793f54679280a80d29715657dc181e",
+      "size": 11714
+    },
+    "overloaded-armor-bar": {
+      "name": "Overloaded Armor Bar",
+      "mod_id": 314002,
+      "file_id": 2719400,
+      "filename": "overloadedarmorbar-1.0.4g.jar",
+      "sha256": "bc8d2c75b996e8d6e26a2c7c8ef5c0bd3205cce22bb374631ce22512685413b9",
+      "size": 18649
+    },
+    "no-nv-flash": {
+      "name": "No Night Vision Flashing",
+      "mod_id": 291926,
+      "file_id": 2550651,
+      "filename": "NoNVFlash-1.12.2-1.2.0.3-universal.jar",
+      "sha256": "3a626ebaa10fda187429c191151b831baaed2742e0e5f2d05880410dfcd5c118",
+      "size": 7216
+    },
+    "super-sound-muffler-revived": {
+      "name": "Super Sound Muffler: Revived",
+      "mod_id": 363856,
+      "file_id": 2886150,
+      "filename": "supersoundmuffler-revived_1.12.2_1.0.2.10.jar",
+      "sha256": "2faf6423756b3c4af3a83424a931122d18ee16dfaf1fff5058baaee923522312",
+      "size": 80841
+    },
+    "more-overlays": {
+      "name": "More Overlays",
+      "mod_id": 243478,
+      "file_id": 2745657,
+      "filename": "moreoverlays-1.15.1-mc1.12.2.jar",
+      "sha256": "428542f8e4e9a683826058fd113d6e74121a3d47c7e796d7cb96ceed801102ad",
+      "size": 51284
+    },
+    "chisel": {
+      "name": "Chisel",
+      "mod_id": 235279,
+      "file_id": 2915375,
+      "filename": "Chisel-MC1.12.2-1.0.2.45.jar",
+      "sha256": "64c62f20a89939db2c03d47737c7bd371d8bd8c10ae42e2e8c63432ae89db2c7",
+      "size": 4755282
+    },
+    "unlimited-chisel-works": {
+      "name": "Unlimited Chisel Works",
+      "mod_id": 278493,
+      "file_id": 3319307,
+      "filename": "UnlimitedChiselWorks-0.3.5.jar",
+      "sha256": "49ba148c69e4337d35b64d0ecb75925462d546139116f8e9fe60505a13b01d91",
+      "size": 124777
+    },
+    "architecturecraft-tridev": {
+      "name": "ArchitectureCraft - TridentMC Version",
+      "mod_id": 277631,
+      "file_id": 4344128,
+      "filename": "architecturecraft-1.12-3.108.jar",
+      "sha256": "34a864afeceb60f744b5071ba625de5d294143f7c08740642cb21482b288bd7e",
+      "size": 925535
+    },
+    "blockcraftery": {
+      "name": "Blockcraftery",
+      "mod_id": 278882,
+      "file_id": 2716712,
+      "filename": "blockcraftery-1.12.2-1.3.1.jar",
+      "sha256": "2b64a900a30d12c55c48f295097327eab5547fa3e7dccdce0f929ecdee25d038",
+      "size": 105052
+    },
+    "flat-colored-blocks-forge": {
+      "name": "Flat Colored Blocks - For Forge",
+      "mod_id": 238590,
+      "file_id": 2715827,
+      "filename": "flatcoloredblocks-mc1.12-6.8.jar",
+      "sha256": "61f0c49d65e9040bf15dd3aa2d83f61ef63fd7561ca172ad4ce9fe3e528756e3",
+      "size": 139609
+    },
+    "kleeslabs": {
+      "name": "KleeSlabs",
+      "mod_id": 241895,
+      "file_id": 2733525,
+      "filename": "KleeSlabs_1.12.2-5.4.12.jar",
+      "sha256": "597c21ab6f0d701ec2d7d9e6abdd9e4e3d949af1a9635ef018cef7df4c126e57",
+      "size": 23967
+    },
+    "quark": {
+      "name": "Quark",
+      "mod_id": 243121,
+      "file_id": 2924091,
+      "filename": "Quark-r1.6-179.jar",
+      "sha256": "b72490ac2de814df2fd764afd6071e4e8731281ef68b3862f282c5233224259d",
+      "size": 3877577
+    },
+    "bibliocraft": {
+      "name": "BiblioCraft",
+      "mod_id": 228027,
+      "file_id": 3647708,
+      "filename": "BiblioCraft[v2.4.6][MC1.12.2].jar",
+      "sha256": "43f0fe963867bd74a18ac3f04caaf65c75d197abaf703f96b8282af6b843f2f8",
+      "size": 5185177
+    },
+    "custom-main-menu": {
+      "name": "Custom Main Menu",
+      "mod_id": 226406,
+      "file_id": 2857869,
+      "filename": "CustomMainMenu-MC1.12.2-2.0.9.1.jar",
+      "sha256": "63b8e4d86b336739c9df8275d28e61519c73c815d0ba9ec18fb8d0cf8a218488",
+      "size": 91121
+    },
+    "custom-backgrounds": {
+      "name": "Custom Backgrounds",
+      "mod_id": 225928,
+      "file_id": 2445809,
+      "filename": "CustomBackgrounds-MC1.12-1.1.1.jar",
+      "sha256": "e15873e143be4b106cf390d875d46305923e395a4cde0e691e548a0775b70777",
+      "size": 4140
+    },
+    "resource-loader": {
+      "name": "Resource Loader",
+      "mod_id": 226447,
+      "file_id": 2477566,
+      "filename": "ResourceLoader-MC1.12.1-1.5.3.jar",
+      "sha256": "5c5ee114dccab5caca1772e3487eca04e161c494baca4d53c8fddf5cf8722e56",
+      "size": 16612
+    },
+    "default-options": {
+      "name": "Default Options",
+      "mod_id": 232131,
+      "file_id": 2624732,
+      "filename": "DefaultOptions_1.12.2-9.2.8.jar",
+      "sha256": "1a4007ec8c503fe75faf7429b66c0ffe1555fa7a7d43147386049913ce6ebf4a",
+      "size": 15056
+    },
+    "reauth": {
+      "name": "ReAuth",
+      "mod_id": 237701,
+      "file_id": 4408001,
+      "filename": "ReAuth-1.12-Forge-4.0.7.jar",
+      "sha256": "bfc2323d06c7059ca8f90a20add83866019e402dca3582fd544a5ad9ff3de19f",
+      "size": 168847
+    },
+    "toast-control": {
+      "name": "Toast Control",
+      "mod_id": 271740,
+      "file_id": 2707353,
+      "filename": "Toast Control-1.12.2-1.8.1.jar",
+      "sha256": "def0569f7098beeda519118ab1c3c53d8d5e411330ea6f669758681e2a7b23b6",
+      "size": 21668
+    },
+    "tipthescales": {
+      "name": "TipTheScales",
+      "mod_id": 282313,
+      "file_id": 2689835,
+      "filename": "TipTheScales-1.12.2-1.0.4.jar",
+      "sha256": "91eab825f0730d412a05a40136e9f0755b9a2b9483fc92255cba08e282a1e146",
+      "size": 11641
+    },
+    "demagnetize": {
+      "name": "Demagnetize",
+      "mod_id": 301356,
+      "file_id": 3091010,
+      "filename": "demagnetize-1.12.2-1.1.2.jar",
+      "sha256": "6c2b40365ed0b1c525961bc911aec1eb691ecf02a629403410a56e0065c00b01",
+      "size": 62280
+    },
+    "anger-management": {
+      "name": "Anger Management",
+      "mod_id": 305211,
+      "file_id": 2688529,
+      "filename": "angermanagement-1.12.2-1.0.2.jar",
+      "sha256": "cb292ff1d21180b688ac7fcf96f5dc77d158159ef66941aa57b18f77bf1a6d3c",
+      "size": 16510
+    },
+    "villager-market": {
+      "name": "Villager Market",
+      "mod_id": 261505,
+      "file_id": 2882805,
+      "filename": "villager-market-1.12.2-1.0.2.jar",
+      "sha256": "646c571ef6236225ab3299724f721da7ad67385ab1c93dccb8f72b65c82bf4b9",
+      "size": 117583
+    },
+    "simple-trophies": {
+      "name": "Simple Trophies",
+      "mod_id": 301310,
+      "file_id": 2863053,
+      "filename": "simpletrophies-1.2.2.1.jar",
+      "sha256": "dc78ef618154151176d33da079ae9b046ac8e7e193e0185253e2a43e3c13b522",
+      "size": 51327
+    },
+    "better-questing": {
+      "name": "Better Questing",
+      "mod_id": 238856,
+      "file_id": 2950248,
+      "filename": "BetterQuesting-3.5.329.jar",
+      "sha256": "f7803b91d54b98eb54b3e2f12143866e68a46e3f963d51997d1a1195b8469ba7",
+      "size": 1425671
+    },
+    "better-questing-standard-expansion": {
+      "name": "Better Questing - Standard Expansion",
+      "mod_id": 238857,
+      "file_id": 2863771,
+      "filename": "StandardExpansion-3.4.173.jar",
+      "sha256": "405211aef15d442f857f92c4f755f051396283d6e6fc2de818f4f693091e89f9",
+      "size": 460454
+    },
+    "better-questing-quest-book": {
+      "name": "Better Questing - Quest Book",
+      "mod_id": 242106,
+      "file_id": 2539562,
+      "filename": "questbook-3.1.1-1.12.jar",
+      "sha256": "294fa190ff641bacb2b157a99c4714c3d2dfbc7dbd9f615cdbdd31a25afbe016",
+      "size": 20203
+    },
+    "patchouli": {
+      "name": "Patchouli",
+      "mod_id": 306770,
+      "file_id": 3162874,
+      "filename": "Patchouli-1.0-23.6.jar",
+      "sha256": "8fcceac75c71e0d041db734111200205d03431b7e8646f8209cf2c4de9afef7b",
+      "size": 472464
+    },
+    "crafttweaker": {
+      "name": "CraftTweaker",
+      "mod_id": 239197,
+      "file_id": 9357132,
+      "filename": "CraftTweaker2-1.12-4.1.20.698.jar",
+      "sha256": "b2e5e443f18d0d5bcfd1364f9ec89565e6a1e2ad4568b899c590aa5507978b27",
+      "size": 1589140
+    },
+    "modtweaker": {
+      "name": "ModTweaker",
+      "mod_id": 220954,
+      "file_id": 3840577,
       "filename": "modtweaker-4.0.20.11.jar",
       "sha256": "2c2db905cae947092fe46dba301d1f6777fdab9cc8e79140c050b09fe62dda7a",
-      "size_bytes": 493285
+      "size": 493285
     },
-    "vintagefix-0.7.2": {
+    "contenttweaker": {
+      "name": "ContentTweaker",
+      "mod_id": 237065,
+      "file_id": 3331364,
+      "filename": "ContentTweaker-1.12.2-4.10.0.jar",
+      "sha256": "3371fcccdda4c0701e0991d576db58e2806046c2cb27c22c1e52764080f0e3e9",
+      "size": 278152
+    },
+    "game-stages": {
+      "name": "Game Stages",
+      "mod_id": 268655,
+      "file_id": 2951840,
+      "filename": "GameStages-1.12.2-2.0.123.jar",
+      "sha256": "b37fcec582a97dd65a0b795b135886efcd1d59a39f2cd7cb3b17029ecb5fda45",
+      "size": 54375
+    },
+    "recipe-stages": {
+      "name": "Recipe Stages",
+      "mod_id": 280554,
+      "file_id": 3405071,
+      "filename": "RecipeStages-1.1.3.8.jar",
+      "sha256": "512aeddb17486f0918aca5a7419939f3a0be8b6814b96f685450b9f8e0c7b074",
+      "size": 45386
+    },
+    "item-stages": {
+      "name": "Item Stages",
+      "mod_id": 280316,
+      "file_id": 2696766,
+      "filename": "ItemStages-1.12.2-2.0.51.jar",
+      "sha256": "97d9f29c0c37a792505e7f9f4718ef120a8dd587d497e1b16f0ee91ec312cecc",
+      "size": 43406
+    },
+    "dimension-stages": {
+      "name": "Dimension Stages",
+      "mod_id": 269398,
+      "file_id": 2643976,
+      "filename": "DimensionStages-1.12.2-2.0.23.jar",
+      "sha256": "afbbce57c1cff94ae60c976383de5af828aa00005070e9909303e15040f07bb9",
+      "size": 18251
+    },
+    "loottweaker": {
+      "name": "LootTweaker",
+      "mod_id": 255257,
+      "file_id": 7684381,
+      "filename": "LootTweaker-0.5.1+MC1.12.2-DLS0.jar",
+      "sha256": "48ecbb9063b459a2a94ee8a0db1211bf90ce2640be9a449b8870b70d1e928104",
+      "size": 148482
+    },
+    "endertweaker": {
+      "name": "Ender Tweaker",
+      "mod_id": 312195,
+      "file_id": 3474382,
+      "filename": "EnderTweaker-1.12.2-1.2.3.jar",
+      "sha256": "127e47c0e9e15fe29634ddaa0b6536093a3fd5430e4429b9f3150bd4c64e8b31",
+      "size": 31753
+    },
+    "unidict": {
+      "name": "UniDict",
+      "mod_id": 244258,
+      "file_id": 3553627,
+      "filename": "UniDict-1.12.2-3.0.10.jar",
+      "sha256": "003421fa15bc84733343ad26f8bd9387bbd110df6c7ff860cae87ec11f85399d",
+      "size": 225385
+    },
+    "jaopca": {
+      "name": "JAOPCA",
+      "mod_id": 266936,
+      "file_id": 7125072,
+      "filename": "JAOPCA-1.12.2-2.3.14.38.jar",
+      "sha256": "95a6dbef7fa722a790e356339e188c2f8e9a2771b92089548c84418f15d35379",
+      "size": 1043784
+    },
+    "mtlib": {
+      "name": "MTLib",
+      "mod_id": 253211,
+      "file_id": 3308160,
+      "filename": "MTLib-3.0.7.jar",
+      "sha256": "e978ce61b6177ec07a9db231d05a64415239c836f43f5cbcc0cf01bd9da4b3e2",
+      "size": 30009
+    },
+    "wanionlib": {
+      "name": "WanionLib",
+      "mod_id": 253043,
+      "file_id": 4623135,
+      "filename": "WanionLib-1.12.2-2.91.jar",
+      "sha256": "6dbb4140af8171d07752abfe225d6ad0a6981b4dc143b53d78fed4ea0ea3f00c",
+      "size": 223035
+    },
+    "mantle": {
+      "name": "Mantle",
+      "mod_id": 74924,
+      "file_id": 2713386,
+      "filename": "Mantle-1.12-1.3.3.55.jar",
+      "sha256": "0975ad3ef3b8b35fe43461feabe44d406b5521b0a2f3d1965c8d2f6a59ad2e65",
+      "size": 843486
+    },
+    "cofh-core": {
+      "name": "CoFH Core",
+      "mod_id": 69162,
+      "file_id": 2920433,
+      "filename": "CoFHCore-1.12.2-4.6.6.1-universal.jar",
+      "sha256": "e07b0c48def9ce8cfaa4cf7a7c656bf7f7d6815f74fbcc2957dd43efa78486a9",
+      "size": 848187
+    },
+    "redstone-flux": {
+      "name": "Redstone Flux",
+      "mod_id": 270789,
+      "file_id": 2920436,
+      "filename": "RedstoneFlux-1.12-2.1.1.1-universal.jar",
+      "sha256": "6ff7f96d076bfaad83fb6ba92ec457b8a76391439663b0cc32a9ec5398345280",
+      "size": 31802
+    },
+    "baubles": {
+      "name": "Baubles",
+      "mod_id": 227083,
+      "file_id": 2518667,
+      "filename": "Baubles-1.12-1.5.2.jar",
+      "sha256": "b32010b2f2778aa1188585e7ead91ad46d4cb2c715f9c778a61848ba7fe51f8d",
+      "size": 108450
+    },
+    "guide-api": {
+      "name": "Guide-API",
+      "mod_id": 228832,
+      "file_id": 2645992,
+      "filename": "Guide-API-1.12-2.1.8-63.jar",
+      "sha256": "e201712ef8fadc6c4b6380939751e92fe32cad2ba2dcb717e1acb3b07e0c2125",
+      "size": 169528
+    },
+    "codechicken-lib-cre": {
+      "name": "CodeChicken Lib CRE",
+      "mod_id": 1328922,
+      "file_id": 9293424,
+      "filename": "codechickenlib-3.3.10-universal.jar",
+      "sha256": "bd27374119e728569d6b8e7f493db70869cf8f915f10089b421df76b6a349b34",
+      "size": 665949
+    },
+    "brandons-core": {
+      "name": "Brandon's Core",
+      "mod_id": 231382,
+      "file_id": 3408276,
+      "filename": "BrandonsCore-1.12.2-2.4.20.162-universal.jar",
+      "sha256": "7f26e2cad131d3cb79296b0309dbde4f361b34c7f602d9575aecff893bb04d76",
+      "size": 827900
+    },
+    "endercore": {
+      "name": "EnderCore",
+      "mod_id": 231868,
+      "file_id": 4671384,
+      "filename": "EnderCore-1.12.2-0.5.78.jar",
+      "sha256": "adbd309f6c8001c38c4630aa701cdc5ea59fa7ee9ffa770e21f56b160adb443c",
+      "size": 660062
+    },
+    "tesla-core-lib": {
+      "name": "Tesla Core Lib",
+      "mod_id": 254602,
+      "file_id": 3438487,
+      "filename": "tesla-core-lib-1.12.2-1.0.18.jar",
+      "sha256": "2e65e880be07a2cac3784490f93ddcba241160dbeb5191716f0e26b44b9d89d0",
+      "size": 1139012
+    },
+    "tesla": {
+      "name": "TESLA",
+      "mod_id": 244651,
+      "file_id": 2487959,
+      "filename": "tesla-core-lib-1.12.2-1.0.18.jar",
+      "sha256": "2e65e880be07a2cac3784490f93ddcba241160dbeb5191716f0e26b44b9d89d0",
+      "size": 1139012
+    },
+    "mcjtylib": {
+      "name": "McJtyLib",
+      "mod_id": 233105,
+      "file_id": 2745846,
+      "filename": "mcjtylib-1.12-3.5.4.jar",
+      "sha256": "af7d2b3c421329e7b97202302a072867e7c9bd73c5b8fab9bdb3a76fbfe474e3",
+      "size": 544856
+    },
+    "cyclops-core": {
+      "name": "Cyclops Core",
+      "mod_id": 232758,
+      "file_id": 3159497,
+      "filename": "CyclopsCore-1.12.2-1.6.7.jar",
+      "sha256": "613b513fee6089cac67bf497ab823416bea0e10764e5395c49ac935d5ebf9f44",
+      "size": 1060985
+    },
+    "common-capabilities": {
+      "name": "Common Capabilities",
+      "mod_id": 247007,
+      "file_id": 3053017,
+      "filename": "CommonCapabilities-1.12.2-2.4.8.jar",
+      "sha256": "71e7ed804a6d9f25c4c9af5e46c3e362a5c3b43919b2d3a276a57fd25d98776f",
+      "size": 361018
+    },
+    "bdlib": {
+      "name": "BdLib",
+      "mod_id": 70496,
+      "file_id": 4675629,
+      "filename": "bdlib-1.14.4.1-mc1.12.2.jar",
+      "sha256": "b385f1a6f3f908673324ef03ed15b6bb5f588ce2e36443acc7273a6263cca045",
+      "size": 2313893
+    },
+    "p455w0rds-library": {
+      "name": "p455w0rd's Library",
+      "mod_id": 255232,
+      "file_id": 2830265,
+      "filename": "p455w0rdslib-1.12.2-2.3.161.jar",
+      "sha256": "e5844c044d9f2ce2f23eef84d95eea8cc1f2c5581874bd01410e7d103b90a424",
+      "size": 328793
+    },
+    "ae2wtlib": {
+      "name": "AE2 Wireless Terminal Library",
+      "mod_id": 304024,
+      "file_id": 2830114,
+      "filename": "AE2WTLib-1.12.2-1.0.34.jar",
+      "sha256": "6d0ec545bf94e6142b4140f910aae4114b1f92298e820c12fa91af35a3c90d60",
+      "size": 243622
+    },
+    "valkyrielib": {
+      "name": "ValkyrieLib",
+      "mod_id": 245480,
+      "file_id": 9414642,
+      "filename": "valkyrielib-1.12.2-2.1.0.0.jar",
+      "sha256": "12a0c0d3d50bebd60c0ecf6189b9484dff3f9674b923b5bfff6f35350a15a714",
+      "size": 534921
+    },
+    "cucumber": {
+      "name": "Cucumber Library",
+      "mod_id": 272335,
+      "file_id": 2645867,
+      "filename": "Cucumber-1.12.2-1.1.3.jar",
+      "sha256": "0475ba0f0964c4a56afd1c2765b7063849ca2b77a91d80d7f612fb15354c27e5",
+      "size": 126699
+    },
+    "autoreglib": {
+      "name": "AutoRegLib",
+      "mod_id": 250363,
+      "file_id": 2746011,
+      "filename": "AutoRegLib-1.3-32.jar",
+      "sha256": "d8610a94da8f30815db4612b3291ecdcfd8204eaf1a4db8c5d0663c7b1191d91",
+      "size": 108306
+    },
+    "craftstudio-api": {
+      "name": "CraftStudio API",
+      "mod_id": 268704,
+      "file_id": 2661859,
+      "filename": "CraftStudioAPI-universal-1.0.1.95-mc1.12-alpha.jar",
+      "sha256": "3b611b599c2de6de4fded0cc65abb77f40e90cc5f4801d04c0bcdbb1af06e0d0",
+      "size": 90465
+    },
+    "llibrary": {
+      "name": "LLibrary",
+      "mod_id": 243298,
+      "file_id": 3116493,
+      "filename": "llibrary-1.7.20-1.12.2.jar",
+      "sha256": "27fa8dbfc7428168229a445dad82a4696ba52cf0a6e054833bff0f93931d8ceb",
+      "size": 884550
+    },
+    "chameleon": {
+      "name": "Chameleon",
+      "mod_id": 230497,
+      "file_id": 2450900,
+      "filename": "Chameleon-1.12-4.1.3.jar",
+      "sha256": "238416f801acda67b90fba9e0e572dbd6e7631b7e64c3eb3d6226f45ae536c87",
+      "size": 96859
+    },
+    "ivtoolkit": {
+      "name": "IvToolkit",
+      "mod_id": 224535,
+      "file_id": 2443253,
+      "filename": "IvToolkit-1.3.3-1.12.jar",
+      "sha256": "ffb745111790e27cb7810a2e03d5270265dee7ebd3ef98fde897c409d58b1e59",
+      "size": 455763
+    },
+    "placebo": {
+      "name": "Placebo",
+      "mod_id": 283644,
+      "file_id": 4629597,
+      "filename": "Placebo-1.12.2-1.6.1.jar",
+      "sha256": "6fe241d316a61314aad22ab80664a1741a2c8f1b2368d73723b62ecc41dfeb0f",
+      "size": 77207
+    },
+    "gunpowderlib": {
+      "name": "GunpowderLib",
+      "mod_id": 356646,
+      "file_id": 3168863,
+      "filename": "GunpowderLib-1.12.2-1.1.jar",
+      "sha256": "6130bd064d4aa1158308d699f370b5586447d026e2f559dfe14aa7df76cd6203",
+      "size": 23153
+    },
+    "openblocks": {
+      "name": "OpenBlocks",
+      "mod_id": 228816,
+      "file_id": 2699056,
+      "filename": "OpenBlocks-1.12.2-1.8.1.jar",
+      "sha256": "fbf81a96f87c609feb0d03933398fdf4bd8b24bc18119f4642e42b30580950fc",
+      "size": 3217616
+    },
+    "openmodslib": {
+      "name": "OpenModsLib",
+      "mod_id": 228815,
+      "file_id": 2699055,
+      "filename": "OpenModsLib-1.12.2-0.12.2.jar",
+      "sha256": "47a2428297213cb3f6b3b75fe1604b002e1f5e4412a2ce77c362bf598e15a877",
+      "size": 2639587
+    },
+    "mixin-booter": {
+      "name": "MixinBooter",
+      "mod_id": 419286,
+      "file_id": 9453275,
+      "filename": "000mixinbooter-12.3.jar",
+      "sha256": "3f8bc4dcd0620dbba2fa80253c1d238ba9e8ae5e069baaa1a87abe16e1a93e56",
+      "size": 2540048
+    },
+    "vintagefix": {
+      "name": "VintageFix",
+      "mod_id": 871198,
+      "file_id": 9072529,
       "filename": "vintagefix-0.7.2.jar",
       "sha256": "33a16df8fe94bb625a41bc20d7d3d4629b63c6a53e95119715db5e969982b65b",
-      "size_bytes": 1045123
+      "size": 1045123
+    },
+    "universal-tweaks": {
+      "name": "Universal Tweaks",
+      "mod_id": 705000,
+      "file_id": 8941250,
+      "filename": "UniversalTweaks-1.12.2-1.21.0.jar",
+      "sha256": "9386ed5a00cc8b86ae5369a8c0d71ae8fa12711ad419767c2a7da1977c7f7870",
+      "size": 2021938
+    },
+    "ai-improvements": {
+      "name": "AI Improvements: Performance Tuning",
+      "mod_id": 233019,
+      "file_id": 2450734,
+      "filename": "AIImprovements-1.12-0.0.1b3.jar",
+      "sha256": "787fdcd860c226e7017a806fb9a48ee10ed9bbffb275e91207635d421d7e26da",
+      "size": 7266
+    },
+    "fastworkbench": {
+      "name": "FastWorkbench",
+      "mod_id": 288885,
+      "file_id": 4030366,
+      "filename": "FastWorkbench-1.12.2-1.7.4.jar",
+      "sha256": "db86c2c728c148ff20e4349fa18767853326ec78e6581afb0c38954fe2abf42a",
+      "size": 26635
+    },
+    "fastfurnace": {
+      "name": "FastFurnace",
+      "mod_id": 299540,
+      "file_id": 2706111,
+      "filename": "FastFurnace-1.12.2-1.3.1.jar",
+      "sha256": "61362af8dd5de20a6f5b7ab9c2f95cfaec911a0ab428c7b469e8d2a7ff89c89d",
+      "size": 10035
+    },
+    "randompatches-forge": {
+      "name": "RandomPatches (Forge)",
+      "mod_id": 285612,
+      "file_id": 3133651,
+      "filename": "randompatches-1.12.2-1.22.1.10.jar",
+      "sha256": "c6d836b4d14223999afcd9df143076a5a709ff2009d6604382c346d1a258284b",
+      "size": 293231
+    },
+    "laggoggles": {
+      "name": "LagGoggles",
+      "mod_id": 283525,
+      "file_id": 4493884,
+      "filename": "LagGoggles-1.12.2-5.9-140.jar",
+      "sha256": "bc69907451119c14efaca9bfb124beef178be1932ddb32d7f98f7bb8f637f8ed",
+      "size": 179329
+    },
+    "advanced-backups": {
+      "name": "Advanced Backups",
+      "mod_id": 876284,
+      "file_id": 6148212,
+      "filename": "AdvancedBackups-forge-1.12-3.7.1.jar",
+      "sha256": "6e0330bf9562f6cfe8f12e340c175f0ab1668a117c45620f11534f4838b66cd8",
+      "size": 340794
+    },
+    "extended-crafting": {
+      "name": "Extended Crafting",
+      "mod_id": 268387,
+      "file_id": 2777071,
+      "filename": "ExtendedCrafting-1.12.2-1.5.6.jar",
+      "sha256": "b3caad740f08c8cba8c9761213085e5899d89882fe1ff8b3cdb23d4307206a3f",
+      "size": 446452
+    },
+    "industrial-upgrade": {
+      "name": " [IU] Industrial Upgrade",
+      "mod_id": 372007,
+      "file_id": 7023083,
+      "filename": "IndustrialUpgrade-1.12.2-3.3.0.47.jar",
+      "sha256": "2e5e709839aae2f661dece0b18f9d34425586ccc53f6090fdd29192f67044dc3",
+      "size": 20748774
+    },
+    "codechicken-lib-1-8": {
+      "name": "CodeChicken Lib 1.8.+",
+      "mod_id": 242818,
+      "file_id": 2779848,
+      "filename": "codechickenlib-3.3.10-universal.jar",
+      "sha256": "bd27374119e728569d6b8e7f493db70869cf8f915f10089b421df76b6a349b34",
+      "size": 665949
+    },
+    "immersive-convergence": {
+      "name": "Immersive Convergence",
+      "mod_id": 1465236,
+      "file_id": 9438920,
+      "filename": "ImmersiveConvergence-1.12.2-1.0.184-release.jar",
+      "sha256": "f40fc4a27711e19cc18dee0ba9f59517a4f1758b4b1a6706053d000cd2beaa8f",
+      "size": 1178329
+    },
+    "immersive-fixes-old-ie": {
+      "name": "Immersive Fixes - Old IE",
+      "mod_id": 1603107,
+      "file_id": 9179837,
+      "filename": "immersivefixes-1.3.0.jar",
+      "sha256": "5e9624796b24860838061a3639c6ba23e984e0afe657facc9eeecd3b0d3f2d75",
+      "size": 76078
+    },
+    "ctm": {
+      "name": "ConnectedTexturesMod",
+      "mod_id": 267602,
+      "file_id": 2915363,
+      "filename": "CTM-MC1.12.2-1.0.2.31.jar",
+      "sha256": "433f441dc9c0aa75a4168df832900720ddadac1f22cc3bba4e4f25ca789b268b",
+      "size": 199045
+    },
+    "mysticallib": {
+      "name": "MysticalLib",
+      "mod_id": 277064,
+      "file_id": 3483816,
+      "filename": "mysticallib-1.12.2-1.13.0.jar",
+      "sha256": "9293907825d431db479afd87fcc70b5d09b672231c2f66db2f41e74de02e4891",
+      "size": 426226
+    },
+    "base": {
+      "name": "B.A.S.E",
+      "mod_id": 246996,
+      "file_id": 3440963,
+      "filename": "base-1.12.2-3.14.0.jar",
+      "sha256": "5ec979220887e4e73772ecdb5dceb8a258b4da974bd4ece8fd85cade089913d4",
+      "size": 690000
+    },
+    "bookshelf": {
+      "name": "Bookshelf",
+      "mod_id": 228525,
+      "file_id": 2836960,
+      "filename": "Bookshelf-1.12.2-2.3.590.jar",
+      "sha256": "043afbddfd567e753a893f5a8f0e052db7c45209a08d09d9dcf32cadca764109",
+      "size": 266636
+    },
+    "wrapup": {
+      "name": "WrapUp",
+      "mod_id": 275153,
+      "file_id": 2486198,
+      "filename": "WrapUp-1.12-1.1.3.jar",
+      "sha256": "133c55730e48e1652c861898d05c6092b4f58badf9e627f12019000426e7df95",
+      "size": 25417
+    },
+    "shadowfacts-forgelin": {
+      "name": "Shadowfacts' Forgelin",
+      "mod_id": 248453,
+      "file_id": 2785465,
+      "filename": "Forgelin-1.8.4.jar",
+      "sha256": "ccfcad80ef73ab815875a91979128ed58c262c479c7c0e5da65b225954bee197",
+      "size": 6278399
+    },
+    "configanytime": {
+      "name": "ConfigAnytime",
+      "mod_id": 870276,
+      "file_id": 5212709,
+      "filename": "!configanytime-3.0.jar",
+      "sha256": "29fe190f0d1bb0b3841b2b9f315a5d561cab9f587df6164a0205440540577575",
+      "size": 5201
+    },
+    "tickcentral": {
+      "name": "TickCentral",
+      "mod_id": 377201,
+      "file_id": 3140670,
+      "filename": "TickCentral-3.2.jar",
+      "sha256": "87f0f163162522c8379dce1ce7f802b46f7fe1c167905965037c3f42908fd19c",
+      "size": 53554
+    },
+    "simply-quarries": {
+      "name": "[IU] Simply Quarries",
+      "mod_id": 572662,
+      "file_id": 7023042,
+      "filename": "Simply+Quarries.jar",
+      "sha256": "4693b13d312d28f5b96f2db46b29e279ec890e88a7d59989bef6db9ee552a3b3",
+      "size": 97258
+    },
+    "quantum-generators": {
+      "name": "[IU] Quantum Generators",
+      "mod_id": 572971,
+      "file_id": 7023043,
+      "filename": "Quantum_Generators.jar",
+      "sha256": "2539e7f88ba06b15cd8e256843672744352afee63945efb0f4c77123a37aa077",
+      "size": 123313
+    },
+    "power-utilities-iu": {
+      "name": "[IU] Power Utilities ",
+      "mod_id": 572640,
+      "file_id": 7023044,
+      "filename": "Power+Utilities.jar",
+      "sha256": "adbb2316eef37322c9a27753913077f85ccc81db994eb581d9e12dfd1cee00bd",
+      "size": 108315
     }
   }
 }
