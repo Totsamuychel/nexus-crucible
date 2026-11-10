@@ -13,7 +13,7 @@ def package_release():
     release_dir = base_dir / "release"
     release_dir.mkdir(exist_ok=True)
 
-    zip_path = release_dir / "Nexus-Crucible-1.12.2-dev.zip"
+    zip_path = release_dir / "Nexus-Crucible-1.12.2-v1.0.0-rc1.zip"
 
     include_dirs = [
         ("instance/config", "config"),
