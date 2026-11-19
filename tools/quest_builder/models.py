@@ -14,6 +14,15 @@ class Item:
     ore_dict: str = ""
     nbt: Optional[Dict[str, Any]] = None
 
+    def __post_init__(self):
+        parts = self.id.split(":")
+        if len(parts) >= 3:
+            self.id = f"{parts[0]}:{parts[1]}"
+            try:
+                self.damage = int(parts[2])
+            except ValueError:
+                pass
+
     def to_bq(self) -> Dict[str, Any]:
         d = {
             "id:8": self.id,
