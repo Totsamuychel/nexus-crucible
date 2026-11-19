@@ -71,7 +71,7 @@ def validate_all():
             errors.append(f"{f.name}: {b_err}")
 
         # 2. Recipe name uniqueness
-        matches = re.findall(r'recipes\.addShape[d|less]\s*\(\s*["\']([^"\']+)["\']', content)
+        matches = re.findall(r'recipes\.addShape(?:d|less)\s*\(\s*["\']([^"\']+)["\']', content)
         for r_name in matches:
             if r_name in recipe_names:
                 errors.append(f"Duplicate recipe name: '{r_name}' in {f.name}")
