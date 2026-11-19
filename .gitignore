@@ -31,3 +31,4 @@ credentials.json
 
 # Built releases
 release/*.zip
+*.backup_*.json
