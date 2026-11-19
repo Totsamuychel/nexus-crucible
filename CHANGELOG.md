@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.0-divine] - 2026-11-19
+
+### Added
+- **Massive Quest System (Divine Journey Style):**
+  - Expanded total quests from 43 to **1,514 quests** across **34 thematic chapters**.
+  - Comprehensive coverage of every major mod in the pack: Tinkers' Construct, Pam's Harvestcraft, Immersive Engineering & Petroleum, Botania, Astral Sorcery, Thermal Series, Redstone Arsenal, Actually Additions, Blood Magic & Animus, Thaumcraft 6 & Thaumic Tinkerer, Psi, Ender IO & Endergy, Industrial Foregoing, Mekanism (2x-5x), NuclearCraft, Applied Energistics 2, AE2 Stuff, XNet, Integrated Dynamics, Twilight Forest, Ice and Fire Dragons, Forestry, Mystical Agriculture, Industrial Upgrade, Environmental Tech, Draconic Evolution, Extended Crafting (3x3-9x9), Storage Drawers, Compact Machines, and Avaritia.
+  - Complete Russian localization with immersive lore and technical automation guidance.
+- **Tiered Loot Box System (BetterQuesting Standard Expansion):**
+  - Configured `DefaultLoot.json` with 4 balanced loot tiers (Common Survival, Uncommon Tech/Magic, Rare High-Tech/Mystic, Epic Endgame).
+  - Rewards ease tedious resource grinds without breaking progression.
+  - Generous high-tier endgame rewards (awakened cores, neutronium, singularities, infinity catalysts).
+- **Automation & Tooling:**
+  - Modular quest generator engine in `tools/quest_builder/` and `tools/generate_divine_quests.py`.
+
 ## [1.0.0-rc1] - 2026-11-10
 
 ### Added
